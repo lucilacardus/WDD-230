@@ -1,0 +1,59 @@
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'quattrocento', 'Arial narrow', arial, sans-serif;
+    margin: .25rem;
+}
+
+h2{
+    color: lightcoral;
+    font-size: 1.2rem;
+    font-style: regular;
+}
+
+h3{
+    color: black
+    font-size: 1.2rem;
+}
+
+header,
+main,
+footer{
+    margin: 1rem auto;
+    padding: .5rem;
+    max-width: 480px;
+
+}
+
+header,
+footer {
+    background-color: darkcyan;
+    color: white;
+
+
+}
+footer {
+    text-align: center;
+
+}
+footer a {
+    color: white
+}
+img{
+    width: 100%;
+
+}
+.rightalign {
+    float: right;
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+}
+
+.caption {
+    font-size: smaller;
+    color: rgb(250, 233, 136);
+}
