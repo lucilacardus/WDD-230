@@ -12,7 +12,7 @@ Output: Display “Sleep in.” or “Get up!” */
 	
 		//processing
 	
-	if ((month == 1 && date == 1) || (month == 7 && date == 4) || (month == 12 && date == 25)		|| (dayOfWeek == 6^0)){
+	if ((month == 1 && date == 1) || (month == 7 && date == 4) || (month == 12 && date == 25)		|| (dayOfWeek == 6) || (dayOfWeek == 0)){
 		result = "Sleep in!";	
 		}
 		
