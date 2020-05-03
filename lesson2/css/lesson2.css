@@ -34,7 +34,7 @@ main section a{
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     color: black;
-    
+    padding: 1rem;
 }
 
 main section h2 {
@@ -52,7 +52,9 @@ main section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
 }
-
+main section picture {
+    padding-top: 1rem;
+}
 
 
 /* Tablet Views ******************************/
@@ -71,7 +73,7 @@ main section:nth-child(2) {
 
 	main section picture {
         display: block;
-        padding-top: 1.5rem;
+        padding-top: 1rem;
 	}
 	main section picture img {
 		width: 100%;
