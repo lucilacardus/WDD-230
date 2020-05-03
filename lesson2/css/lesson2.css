@@ -13,7 +13,6 @@ footer a {
     color: white
 }
 header, main, footer{
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,8 +34,7 @@ main section a{
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     color: black;
-    padding: .5rem;
-
+    
 }
 
 main section h2 {
@@ -72,12 +70,14 @@ main section:nth-child(2) {
 	}
 
 	main section picture {
-		display: block;
+        display: block;
+        padding-top: 1rem;
 	}
 	main section picture img {
 		width: 100%;
 		height: auto;
-		border: 1px solid #bbb;
+        border: 1px solid #bbb;
+        
 	}
 }
 
