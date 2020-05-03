@@ -1,6 +1,22 @@
 
 
 /* phone or baseline views **************************/
+header, footer {
+    background-color: #36588C;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+
+
+}
+footer a {
+    color: white
+}
+header, main, footer{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 body {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
@@ -12,6 +28,15 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+}
+
+main section a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding: .5rem;
+
 }
 
 main section h2 {
