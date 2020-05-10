@@ -13,7 +13,10 @@
 
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Website Planning Document</h1>
+        <h2>Lucila Cardus</h2>
+    </header>
     <nav>
         <ul>
             <li><a href="./">Home</a></li>
@@ -23,18 +26,31 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <h2>Site Name</h2>
-                <p></p>
-            
-        </section>
-        <section>
-            <h2>Site Purpose</h2>
-                <p></p>
-            
-        </section>
+    <section>
+        <h2>Logo</h2>
+        
+        <picture>
+			<img class="image" src="images/logo.jpg" alt="website logo">
+        </picture>
+        
+	</section>
+	<section>
+        <h2>Site name</h2>
+        
+        <p>The site name is Weather on Point and the domain would be weatheronpoint.com. As the name indicates this will be a website where users will get information about the weather.  </p>
+    </section>
+    <section>
+        <h2>Purpose Statement</h2>
+        
+        <p>The purpose of this website would be to help users to know the weather for the day and even the week. This will be fulfilled by displaying the temperatures each day, indicating the percentage of probability of rain and snow.   </p>
+	</section>
     </main>
-    <footer></footer>
-    <script src=""></script>
-</body>
+    <footer>
+        &copy; 2020 | Lucila Cardús | BA, Argentina | <a href="https://www.byui.edu/online" target="blank" title="BYUI">BYUI Online Learning</a> 
+        <p class="caption">Last Updated: <span id="last"></span></p>
+    </footer>
+    
+    <script> 
+    document.getElementById('last').textContent = document.lastModified;</script>
+        </body>
 </html>
