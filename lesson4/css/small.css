@@ -38,18 +38,16 @@ nav a:hover {
 header, footer {
     background-color: #457B9D;
     color: #1D3557;
-    text-align: center;
     display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	padding: 5px 0;
 
 
 }
 
 header img{
-	width: 80px;
+	width: 100px;
 	height: auto;
 }
 
@@ -63,11 +61,10 @@ header img{
 	font-style: italic;
 	letter-spacing: 1pt;
 	color: #F1FAEE;
+	margin-left: 20px;
+	font-size: .9rem;
 }
-header, main, footer{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 body {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
