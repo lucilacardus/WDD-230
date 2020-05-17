@@ -64,10 +64,12 @@ header img{
 	margin-left: 20px;
 	font-size: .9rem;
 }
-
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+}
 body {
 	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #F1FAEE;
 
 }
