@@ -1,15 +1,21 @@
 @media only screen and (min-width: 37.5em) {
-nav ul { 
-	display: flex; 
-	flex-direction: row;
-	justify-content: space-evenly;
-}
-nav ul li { 
-	flex: 1 1 100%; 
-}
 
 .contentbox{
 	background-color: #bed;
 
+}
+.navigation {
+	display: flex;
+}
+.navigation li {
+	display: block; /* change state in small view */
+	flex: 1 1 auto;
+}
+.navigation a {
+	text-align: center;
+}
+.navigation li:first-child {
+	display: none;
+}
 }
 }
