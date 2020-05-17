@@ -1,3 +1,9 @@
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.menu');
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
 const options = {
     weekday: 'long',
     day: 'numeric',
@@ -7,10 +13,3 @@ const options = {
   
   let date = new Date();
   let local = date.toLocaleDateString('en-US', options);
-
-  document.getElementById('currentDate').textContent = local;
-  
-  const hambutton = document.querySelector('.ham');
-  const mainnav = document.querySelector('.navigation');
-  
-  hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
