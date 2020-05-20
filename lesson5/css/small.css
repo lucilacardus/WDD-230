@@ -1,0 +1,104 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}	
+
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #F1FAEE;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+
+.preston{
+
+	background-color: #bbb;
+	color: #36454f;
+
+
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #36588C;
+	font-size: 1.5rem;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+
+header, footer {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0;
+
+
+}
+
+header img{
+	width: 100px;
+	height: auto;
+}
+
+.headings{
+	display: flex;
+	flex-direction:  column;
+}
+
+.headings h1{
+margin: 0 0 0 17px;
+font-size: 1.5rem;
+}
+
+.slogan{
+	font-style: italic;
+	color: #F1FAEE;
+	margin-left: 20px;
+	font-size: .7rem;
+}
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #F1FAEE;
+
+}
+
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	font-size: 1rem;
+	
+}
+.responsive li {
+	display: block;
+}
+
+.contentbox{
+	display: block;
+	margin: 10px auto;
+	border: 1px dashed #000;
+	padding: 15px;
+	background-color: #eee;
+	color: #444;
+	font-style: italic;
+}
+.footer{
+	text-align: center;
+}
