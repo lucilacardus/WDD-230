@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> WDD 230 - Assignment Portal - Lucila Cardus</title>
-        <meta name="description" content="This page serves as an assigment portal home page for WDD230 - an introduction to programming using JavaScript at BYU-Idaho.">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-
-    </head>
-    <body>
-<header>
-    <img class="rightalign" src="images/profile.jpg" alt="My Profile Picture">
-<h1>Lucila Cardús</h1>
-
-
-
-</header>
-<main>
-    <h2>CIT 160: Assignment Portal</h2>
-    <ul>
-        <li>Lesson 02 <a href="lesson2/">Assignment Link</a></li>
-        <li>Lesson 03 <a href="lesson 3/">Assignment Link</a></li>
-        <li>Lesson 04 <a href="lesson4/preston-4.html"> Assignment Link</a></li>
-
-    </ul>
-
-</main> 
-<footer>
-    &copy; 2020 | Lucila Cardús | BA, Argentina | <a href="https://www.byui.edu/online" target="blank" title="BYUI">BYUI Online Learning</a> 
-    <p class="caption">Last Updated: <span id="last"></span></p>
-</footer>
-
-<script> 
-document.getElementById('last').textContent = document.lastModified;</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoet" content="width=device-width,initial-scale=1.0">
+    <title> Preston Town Page</title>
+    <meta name="description" content="This serves as a page from a weather website">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif; -->
+    
+</head>
+<body>
+    <header>
+        <picture>
+			<img class="image" src="images/copia.png" alt="website logo">
+        </picture>
+        <section class="headings">
+        <h1>Weather on Point</h1>
+        <div class="slogan">Today is a good day to have a good day</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+            <li><a href="./">Home</a></li>
+            <li class="preston"><a href="/lesson4/preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox"> Hero w/ weather sumary </div>
+        <div class="contentbox forecast"> 5 Day Forecast </div>
+        <div class="contentbox"> Article </div>
+        <div class="contentbox"> Contact Information </div>
+        
+        
+    </main>
+    <footer>
+       <p> &copy; Weather on Point Site | Lucila Cardús |  <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/script.js"></script>
     </body>
 </html>
