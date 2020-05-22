@@ -8,10 +8,7 @@
     header, footer {
 		margin: 0;
 	  }
-	  .contentbox{
-		  background-color: #ccc;
-
-	  }
+	  
 	  .navigation {
 		display: flex;
 	}

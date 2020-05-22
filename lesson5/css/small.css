@@ -18,10 +18,10 @@ nav {
 }
 
 
-.preston{
+.navigation :active{
 
-	background-color: #bbb;
-	color: #36454f;
+	
+	text-decoration: underline #36454f 2px;
 
 
 }
@@ -80,6 +80,19 @@ body {
 
 }
 
+.herodiv{
+	margin 10px auto;
+	position: relative;
+}
+.weather{
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	background-color: #F1FAEE;
+	padding: 1.5rem;
+	opacity: 0.8;
+
+}
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -90,15 +103,7 @@ main {
 	display: block;
 }
 
-.contentbox{
-	display: block;
-	margin: 10px auto;
-	border: 1px dashed #000;
-	padding: 15px;
-	background-color: #eee;
-	color: #444;
-	font-style: italic;
-}
+
 footer{
 	text-align: center;
 }
