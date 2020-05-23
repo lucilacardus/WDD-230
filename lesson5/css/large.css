@@ -33,5 +33,11 @@
 		.navigation li:first-child {
 			display: none;
 		}
+		h2{
+			font-size: 1 rem;
+			color: #36588C;
+			padding-top: 5px;
+		}
+
 }
 

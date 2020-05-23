@@ -18,7 +18,7 @@
 
 .headings h1{
 	margin: 0 0 0 17px;
-	font-size: 2.5rem;
+	font-size: 2 rem;
 	}
 
 }
@@ -27,6 +27,11 @@
 	font-size: .8rem;
 }
 
+h2{
+	font-size: 1 rem;
+	color: #36588C;
+	padding-top: 5px;
+}
 
 .navigation li:first-child {
 	display: none;

@@ -18,7 +18,11 @@
 	font-size: 2.5rem;
 	}
 
-}
+	h2{
+		font-size: 1 rem;
+		color: #36588C;
+		padding-top: 5px;
+	}
 .slogan{
 	
 	font-size: .8rem;
