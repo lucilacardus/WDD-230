@@ -1,4 +1,4 @@
-
+let d = new Date();
 
 const banner = document.getElementById('banner');
 
