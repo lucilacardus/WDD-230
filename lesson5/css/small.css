@@ -42,7 +42,7 @@ text-decoration: underline #36454f 2px;
 	color: #36454f;
 }
 
-header, footer {
+.headings, footer {
     background-color: #457B9D;
     color: #F1FAEE;
     display: flex;
