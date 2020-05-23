@@ -41,12 +41,12 @@ nav {
 	background-color: #bbb;
 	color: #36454f;
 }
-.navigation a:active{
-	text-decoration: underline #36454f 2px;
+.navigation a:active {
+	text-decoration: underline #36454f;
 	
 	}
 
-	
+
 header, footer {
     background-color: #457B9D;
     color: #F1FAEE;
@@ -92,7 +92,7 @@ body {
 }
 
 .herodiv{
-	margin 10px auto;
+	margin: 10px auto;
 	position: relative;
 }
 .weather{
