@@ -8,6 +8,7 @@
 
 
 #banner {
+	float: top;
     padding: .7em;
     text-align: center;
     background: #f1e363;
