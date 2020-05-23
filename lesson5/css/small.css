@@ -104,6 +104,11 @@ body {
 	opacity: 0.8;
 
 }
+
+.weather span{
+	font-weight: bold;
+	color: #36588C;
+}
 main {
 	max-width: 767px;
 	margin: 0 auto;
