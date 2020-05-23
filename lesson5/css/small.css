@@ -5,7 +5,17 @@
 	padding: 0;
 	line-height: 1em;
 }	
+.headbanner {
+    display: flex;
+    flex-direction: column;
+}
 
+#banner {
+    padding: .7em;
+    text-align: center;
+    background: #f1e363;
+    font-family: 'Roboto', sans-serif;
+}
 
 nav {
 	margin: 0 auto;
