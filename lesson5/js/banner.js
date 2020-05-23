@@ -6,10 +6,12 @@ const WeekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 document.getElementById("currentTime").innerHTML = WeekDay[d.getDay()] + ", " + (new Date().toLocaleString
 ("en",{month:'long', year:'numeric', day:'numeric'})) + " " + new Date(new Date().getTime()).toLocaleTimeString();
 
+const banner = document.querySelector('#banner');
+
 
 if(WeekDay[d.getDay()] == "Friday") {
-    document.getElementById("banner").style.display = 'block';
+    banner.style.display = 'block';
 }
 else {
-    document.getElementById("banner").style.display = 'none';
+    banner.style.display = 'none';
 }
