@@ -5,10 +5,7 @@
 	padding: 0;
 	line-height: 1em;
 }	
-.headbanner {
-    display: flex;
-    flex-direction: column;
-}
+
 
 #banner {
     padding: .7em;
@@ -29,12 +26,9 @@ nav {
 
 
 .navigation :active{
-
-	
-	text-decoration: underline #36454f 2px;
-
-
+text-decoration: underline #36454f 2px;
 }
+
 .navigation a {
 	display: block;
 	padding: 0.75rem;
