@@ -20,7 +20,7 @@
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: #F1FAEE;
+	background-color: #bbb;
 }
 .navigation {
 	list-style: none;
@@ -38,7 +38,7 @@ nav {
 	font-size: 1rem;
 }
 .navigation a:hover {
-	background-color: #bbb;
+	background-color: #F1FAEE;;
 	color: #36454f;
 }
 .navigation a:active {
