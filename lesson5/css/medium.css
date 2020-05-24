@@ -32,3 +32,9 @@
 .navigation li:first-child {
 	display: none;
 }
+
+.article, .contactinfo{
+	flex-flow: nowrap;
+	margin: 10px;
+
+}
