@@ -46,7 +46,12 @@ nav {
 	
 	}
 
-
+.navigation	a:link, nav a:visited{
+		color: #36454f;
+		text-decoration: none;
+		transition: .5s;
+	
+	}
 header, footer {
     background-color: #457B9D;
     color: #F1FAEE;
