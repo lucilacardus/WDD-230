@@ -1,5 +1,5 @@
 function windchill(){
-    let temp = parseFloat(document.getElementById("temperature").textContent);
+    let temperature = parseFloat(document.getElementById("temperature").textContent);
     let wind = parseFloat(document.getElementById("wind").textContent);
     let result = windc(temperature,wind);
     
