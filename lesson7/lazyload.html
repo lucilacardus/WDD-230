@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lazy Load Example</title>
-        <link rel="stylesheet" href="css/lazyload.css">
 
-    </head>
-    <body>
-        <h1> Progressive Loading (Images)</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Example</title>
+    <link rel="stylesheet" href="css/lazyload.css">
+
+</head>
+
+<body>
+    <h1> Progressive Loading (Images)</h1>
+    <main>
         <picture>
             <img src="images/placeholder.png" data-src="https://placeimg.com/300/400/any" alt="Random pic">
         </picture>
@@ -32,7 +35,8 @@
         <picture>
             <img src="images/placeholder.png" data-src="https://placeimg.com/300/400/people" alt="People pic">
         </picture>
+    </main>
+    <script src="js/lazy-load.js"> </script>
+</body>
 
-        <script src="js/lazy-load.js"> </script>
-    </body>
 </html>
