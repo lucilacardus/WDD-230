@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoet" content="width=device-width,initial-scale=1.0">
+    <title> Preston Town Page</title>
+    <meta name="description" content="This serves as a page from a weather website">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+
+    <div id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavillion.</div>
+    <header>
+
+        <picture>
+            <img class="image" src="images/copia.png" alt="website logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather on Point</h1>
+            <div class="slogan">Today is a good day to have a good day</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+            <li><a href="./">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+
+        <div class="herodiv">
+            <picture class="photo">
+                <source media="(min-width: 250px) and (max-width: 500px)" srcset="images/hero360.jpg">
+                <source media="(min-width: 501px) and (max-width: 799px)" srcset="images/hero500.jpg">
+                <source media="(min-width: 800px)" srcset="images/hero760.jpg">
+                <img id="heroimg" src="images/hero.jpg" alt="Idaho Landscape">
+            </picture>
+
+            <section class="weather">
+                <h3>Weather Summary</h3>
+                <div class="contentbox">Currently: <span>Windy</span></div>
+                <div class="contentbox">High:<span id="temperature"> 60 </span>°F</div>
+                <div class="contentbox">Wind Chill: <span id="cwind"> </span> °F</div>
+                <div class="contentbox">Humidity: <span>60%</span></div>
+                <div class="contentbox">Wind Speed:<span id="wind"> 25</span> mph</div>
+            </section>
+        </div>
+
+
+        <div class="contentbox forecast">
+            <h3>5 Day Forecast </h3>
+            <div class="grid">
+                <div class="grid-col">
+                    <span class="col-head">Mon</span>
+                    <img src="images/sun2.png" alt="Mostly sunny">
+                    <span class="data">46 &#176;F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Tue</span>
+                    <img src="images/sun2.png" alt="Mostly sunny">
+                    <span class="data">51 &#176;F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Wed</span>
+                    <img src="images/sun2.png" alt="Mostly sunny">
+                    <span class="data">52 &#176;F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Thu</span>
+                    <img src="images/sun.png" alt="Sunny">
+                    <span class="data">54 &#176;F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Fri</span>
+                    <img src="images/sun.png" alt="Sunny">
+                    <span class="data">57 &#176;F</span>
+                </div>
+            </div>
+
+        </div>
+        <h3>Understanding the state's COVID-19 data and reopening criteria</h3>
+        <div class="article">
+            <img src="images/people.jpg" alt="People chatting">
+            <div class="story">
+                <p> BOISE — Understanding the blizzard of data points that go into Idaho’s response to the
+                    coronavirus pandemic, and how those play into decisions on whether the state’s met its criteria
+                    to move into each stage of reopening the economy, can be challenging — especially when the
+                    numbers seem to change or sometimes seem not to add up.
+
+                    “We continue to make the choice to report the data as soon as we get it,” state Health & Welfare
+                    Director Dave Jeppesen told the Idaho Press. That means sometimes numbers are posted, and then
+                    they change the next day or the day after. <a
+                        href="https://www.idahopress.com/news/local/eye-on-boise-understanding-the-states-covid-19-data-and-reopening-criteria/article_481f1382-e4ee-528c-89de-2c2123e7d1af.html">Keep
+                        reading</a>
+
+
+                </p>
+            </div>
+        </div>
+        <h4>The Weather Site</h4>
+
+        <div class="contactinfo"> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628265059!2d-111.9153444785089!3d42.09980531188431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1590292514288!5m2!1ses-419!2sar"
+                width="350" height="233" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <div class="info">
+
+                <p>
+                    The Weather Site <br>
+                    30 N 1st E<br>
+                    Preston, ID 83263<br>
+
+                    999.999.9999<br>
+                    theweathersite@tws.com<br>
+                </p>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p> &copy; Weather on Point Site | Lucila Cardús | <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font.js"></script>
+</body>
+
+</html>
