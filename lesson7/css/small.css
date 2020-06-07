@@ -44,8 +44,10 @@ nav {
 	color: #36454f;
 }
 
-.navigation a:active {
+.active {
 	text-decoration: underline #36454f;
+	background-color: #F1FAEE;
+
 
 }
 
