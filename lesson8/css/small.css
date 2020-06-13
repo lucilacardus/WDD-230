@@ -132,6 +132,11 @@ fieldset {
 	background-color: #eee;
 	border: 1px solid #ccc;
 }
+
+.flexly {
+	display: flex;
+	align-items: center;
+}
 footer {
 	text-align: center;
 }
