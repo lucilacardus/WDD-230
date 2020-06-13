@@ -85,6 +85,8 @@
 	.form-box label {
 		display: block;
 	}
-
+	.form-box{
+		flex-direction: row;
+	}
 
 }

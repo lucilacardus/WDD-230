@@ -112,7 +112,7 @@ main {
 
 }
 
-select, option, input, label, button{
+ select, option, input, label, button{
 	padding: 0.2rem 1rem;
 	font-size: 1.2rem;
 	color: inherit;
@@ -125,7 +125,10 @@ select, option, input, label, button{
 	
 }
 
-
+legend{
+	font-size: 1rem;
+	line-height: 1em;
+}
 .form-box input,
 .form-box select,
 .form-box textarea {
