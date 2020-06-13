@@ -39,24 +39,29 @@
         </ul>
     </nav>
     <main>
-        <div class="container">
+      
             <form method="post" action="#">
                 <fieldset>
+                    <div class="form-box">
                     <label>Enter your full name:
                         <input type="text" minlength="5" name="input1" required pattern="[A-Za-z]">
-                    </label><br>
-
+                    </label></div>
+                    <div class="form-box">
                     <label for="email">eMail:
-                        <input type="email" name="email" placeholder="user@email.org"></label><br>
-
-                    <label for="tel"></label>Phone:
+                        <input type="email" name="email" placeholder="user@email.org"></label><br></div>
+                    <div class="form-box">
+                    <label for="tel">Phone:
                     <input type="tel" name="phone" required>
-                    </label><br>
+                    </label></div>
+                    <div class="form-box">
                     <label for="num">Zip Code:
-                        <input type="number" id="num" name="num" required></label><br>
+                        <input type="number" id="num" name="num" required></label>
+                    </div>
+                    <div class="form-box">
                     <label for="theDate">Storm Date:
-                        <input type="date" name="theDate"></label><br>
-
+                        <input type="date" name="theDate"></label>
+                    </div>
+                    <div class="form-box">
                     <label for="stormtype">Storm Type:
                         <input name="stormtypes" list="stormtypelist"></label>
                     <datalist id="stormtypelist">
@@ -66,14 +71,15 @@
                         <option value="Thunderstorm">
                         <option value="Tornado">
                     </datalist>
-
+                    </div>
+                    <div class="form-box">
 
                     <label class="flexly" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks"
                             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="severityvalue">5</span>
                     </label>
-
+                    </div>
                     <datalist id="tickmarks">
                         <option value="0">
                         <option value="1">
@@ -87,7 +93,8 @@
                         <option value="9">
                         <option value="10">
                     </datalist>
-
+                </div>
+                <div class="form-box">
                     <label for="region">Storm Region:</label>
                     <select name="region" id="region">
                         <option selected disabled>Select Region...</option>
@@ -96,20 +103,25 @@
                         <option value="fish Haven">Fish Haven</option>
 
 
-                    </select> <br>
-                    <label>User in-danger level:
+                    </select>  
+                </div>
+
+                <div class="form-box">
+                    <label for="danger">User in-danger level: </label>
 
                         <input type="radio" name="ans" value="yes"> Yes
                         <input type="radio" name="ans" value="no"> No
                         <input type="radio" name="ans" value="maybe" checked> Maybe </br>
-                    </label>
-
-
+                    
+                </div>
+                <div class="form-box">
                     <label for="comments">Additional information or comments</label>
-                    <textarea id="comments" name="comments">
-
+                    <textarea id="comments" name="comments" rows="4" cols="50">
+                    </textarea>
+                    </div>
+                    <div class="form-box">
     <input type="submit" value="Submit">
-  
+</div>
   </textarea>
                 </fieldset>
             </form>
