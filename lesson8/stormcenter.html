@@ -39,31 +39,31 @@
         </ul>
     </nav>
     <main>
-      
-        <form method="GET" action="thanks.html">  
-                <fieldset>
-                    <div class="form-box">
+
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <div class="form-box">
                     <label for="name">Enter your full name:</label>
-                        <input type="text" id="name" minlength="5" name="input1" required pattern="[A-z\s]{5,}">
-                    </div>
-                    <div class="form-box">
+                    <input type="text" id="name" minlength="5" name="input1" required pattern="[A-z\s]{5,}">
+                </div>
+                <div class="form-box">
                     <label for="email">eMail:</label>
-                        <input type="email" id="email" name="email" placeholder="user@email.org"></div>
-                    <div class="form-box">
+                    <input type="email" id="email" name="email" placeholder="user@email.org"></div>
+                <div class="form-box">
                     <label for="tel">Phone:</label>
                     <input type="tel" id="tel" name="phone" required>
-                    </div>
-                    <div class="form-box">
+                </div>
+                <div class="form-box">
                     <label for="num">Zip Code:</label>
-                        <input type="number" id="num" name="num" required>
-                    </div>
-                    <div class="form-box">
+                    <input type="number" id="num" name="num" required>
+                </div>
+                <div class="form-box">
                     <label for="theDate">Storm Date:</label>
-                        <input type="date" id= theDate name="theDate">
-                    </div>
-                    <div class="form-box">
+                    <input type="date" id=theDate name="theDate">
+                </div>
+                <div class="form-box">
                     <label for="stormtype">Storm Type:</label>
-                        <input name="stormtypes" id="stormtype" list="stormtypelist">
+                    <input name="stormtypes" id="stormtype" list="stormtypelist">
                     <datalist id="stormtypelist">
                         <option value="Flash Flood">
                         <option value="Hail">
@@ -71,26 +71,25 @@
                         <option value="Thunderstorm">
                         <option value="Tornado">
                     </datalist>
-                    </div>
-                    <div class="form-box">
+                </div>
+                <div class="form-box">
 
                     <label class="flexly" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
-                        <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks"
-                            oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                        <span id="severityvalue">5</span> 
-                    
+                    <span id="ratingValue">5</span>
+                    <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1"
+                        list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
                     <datalist id="tickmarks">
-                        <option value="0">
-                        <option value="1">
-                        <option value="2">
-                        <option value="3">
-                        <option value="4">
-                        <option value="5">
-                        <option value="6">
-                        <option value="7">
-                        <option value="8">
-                        <option value="9">
-                        <option value="10">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
                     </datalist>
                 </div>
                 <div class="form-box">
@@ -102,35 +101,33 @@
                         <option value="fish Haven">Fish Haven</option>
 
 
-                    </select>  
+                    </select>
                 </div>
 
                 <div class="form-box">
-                   <span>User in-danger level:</span>
-                   
-                   <input type="radio" id="yes"
-                   name="choice" value="yes">
-                  <label for="yes">Yes</label>
-              
-                  <input type="radio" id="no"
-                   name="choice" value="yes">
-                  <label for="no">No</label>
-              
-                  <input type="radio" id="maybe"
-                   name="choice" value="yes">
-                  <label for="maybe">Maybe</label>
-                    
+
+                    <label>User in-danger level:</label>
+
+                    <input type="radio" id="yes" name="choice" value="yes">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="choice" value="yes">
+                    <label for="no">No</label>
+
+                    <input type="radio" id="maybe" name="choice" value="yes">
+                    <label for="maybe">Maybe</label>
+
                 </div>
                 <div class="form-box">
                     <label for="comments">Additional information or comments</label>
                     <textarea id="comments" name="comments" rows="4" cols="50">
                     </textarea>
-                    </div>
-                    <div class="form-box">
-    <input type="submit" value="Submit">
-</div>
-                </fieldset>
-            </form>
+                </div>
+                <div class="form-box">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
 
 
 
@@ -143,7 +140,7 @@
     <script src="js/toggleMenu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/font.js"></script>
-    
+
 </body>
 
 </html>

@@ -73,7 +73,7 @@
 	.form-box input,
 	.form-box select,
 	.form-box textarea {
-		flex-basis:0;
+		flex-basis: 0;
 		flex-grow: 1;
 		flex-shrink: 1;
 	}
@@ -85,7 +85,8 @@
 	.form-box label {
 		display: block;
 	}
-	.form-box{
+
+	.form-box {
 		flex-direction: row;
 	}
 
