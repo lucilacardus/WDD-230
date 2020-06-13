@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media screen and (min-width: 800px) {
 	body {
 		margin: auto;
 		min-width: 60em;
@@ -74,8 +74,8 @@
 	.form-box select,
 	.form-box textarea {
 		flex-basis:0;
-		flex-grow: 0;
-		flex-shrink: 0;
+		flex-grow: 1;
+		flex-shrink: 1;
 	}
 
 	.form-box button {
