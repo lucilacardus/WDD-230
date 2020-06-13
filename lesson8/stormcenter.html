@@ -43,15 +43,15 @@
             <form method="post" action="#">
                 <fieldset>
                     <div class="form-box">
-                    <label>Enter your full name:
-                        <input type="text" minlength="5" name="input1" required pattern="[A-Za-z]">
+                    <label for="name">Enter your full name:
+                        <input type="text" id="name" minlength="5" name="input1" required pattern="[A-Za-z]">
                     </label></div>
                     <div class="form-box">
                     <label for="email">eMail:
-                        <input type="email" name="email" placeholder="user@email.org"></label><br></div>
+                        <input type="email" id="email" name="email" placeholder="user@email.org"></label></div>
                     <div class="form-box">
                     <label for="tel">Phone:
-                    <input type="tel" name="phone" required>
+                    <input type="tel" id="tel" name="phone" required>
                     </label></div>
                     <div class="form-box">
                     <label for="num">Zip Code:
@@ -59,11 +59,11 @@
                     </div>
                     <div class="form-box">
                     <label for="theDate">Storm Date:
-                        <input type="date" name="theDate"></label>
+                        <input type="date" id= theDate name="theDate"></label>
                     </div>
                     <div class="form-box">
                     <label for="stormtype">Storm Type:
-                        <input name="stormtypes" list="stormtypelist"></label>
+                        <input name="stormtypes" id="stormtype" list="stormtypelist"></label>
                     <datalist id="stormtypelist">
                         <option value="Flash Flood">
                         <option value="Hail">
@@ -109,9 +109,9 @@
                 <div class="form-box">
                     <label for="danger">User in-danger level: </label>
 
-                        <input type="radio" name="ans" value="yes"> Yes
-                        <input type="radio" name="ans" value="no"> No
-                        <input type="radio" name="ans" value="maybe" checked> Maybe </br>
+                        <input type="radio" id="danger" name="ans" value="yes"> Yes
+                        <input type="radio" id="danger" name="ans" value="no"> No
+                        <input type="radio" id="danger" name="ans" value="maybe" checked> Maybe 
                     
                 </div>
                 <div class="form-box">
