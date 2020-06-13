@@ -76,8 +76,8 @@
 
                     <label class="flexly" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
                         <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks"
-                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="severityvalue">5</span>
+                            oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                        <span id="severityvalue">5</span> 
                     
                     <datalist id="tickmarks">
                         <option value="0">
