@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
 
 
 
@@ -42,34 +42,4 @@
 		margin: 10px;
 
 	}
-
-	.form-box {
-		flex-direction: row;
-	}
-
-	.form-box label {
-		flex-basis: 9rem;
-		flex-grow: 0;
-		flex-shrink: 0;
-
-	}
-
-
-	.form-box input,
-	.form-box select,
-	.form-box textarea {
-		flex-basis: 0;
-		flex-grow: 1;
-		flex-shrink: 1;
-	}
-
-	.form-box button {
-		margin-left: 9rem;
-	}
-
-	.form-box label {
-		display: block;
-	}
-
-
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 60em) {
 	body {
 		margin: auto;
 		min-width: 60em;
@@ -53,41 +53,5 @@
 		margin: 10px;
 
 	}
-
-	figure:hover {
-		box-shadow: 0 0 50px #333;
-	}
-
-	.form-box {
-		flex-direction: row;
-	}
-
-	.form-box label {
-		flex-basis: 10.5rem;
-		flex-grow: 0;
-		flex-shrink: 0;
-
-	}
-
-
-	.form-box input,
-	.form-box select,
-	.form-box textarea {
-		flex-basis: 0;
-		flex-grow: 1;
-		flex-shrink: 1;
-	}
-
-	.form-box button {
-		margin-left: 9rem;
-	}
-
-	.form-box label {
-		display: block;
-	}
-
-	.form-box {
-		flex-direction: row;
-	}
-
+    figure:hover {box-shadow: 0 0 50px #333;}
 }
