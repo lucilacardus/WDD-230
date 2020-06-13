@@ -1,5 +1,3 @@
-$(document).ready( function() {
-    $("#btnHome").on("click", function() {
-        $("#content").load("thanks.html");
-    });
-});
+function adjustSeverity(severity) {
+    document.getElementById("severity").innerHTML = severity;
+}
