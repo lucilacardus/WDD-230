@@ -113,7 +113,7 @@ main {
 }
 
 select, option, input, label, button{
-	padding; 0.2rem 1rem;
+	padding: 0.2rem 1rem;
 	font-size: 1.2rem;
 	color: inherit;
 }
