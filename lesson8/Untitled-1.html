@@ -1,0 +1,102 @@
+<div class="container">
+	<form method="post" action="#">
+		<fieldset>
+			<label>Enter one letter:
+		   <input type="text" size="1" name="input1" required pattern="[A-Za-z]">
+			</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>Radio Buttons <em>(Choose one)</em></legend>
+			<div class="selection">
+				<label for="time1"><input type="radio" id="time1" name="time" value="8" checked> 8:00 a.m.</label>
+			</div>
+			<div class="selection">
+				<label for="time2"><input type="radio" id="time2" name="time" value="9"> 9:00 a.m.</label>
+			</div>
+			<div class="selection">
+				<input type="radio" id="time3" name="time" value="10">
+				<label for="time3">10:00 a.m.</label>
+			</div>
+			<div class="selection">
+				<input type="radio" id="time4" name="time" value="11">
+				<label for="time4">11:00 a.m.</label>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Checkbox <em>(Select all that apply)</em></legend>
+			<div class="selection">
+				<label for="coding"><input type="checkbox" id="coding" name="interest" value="coding" checked> Coding</label>
+			</div>
+			<div class="selection">
+				<label for="music"><input type="checkbox" id="music" name="interest" value="music"> Music</label>
+			</div>
+			<div class="selection">
+				<label for="football"><input type="checkbox" id="football" name="interest" value="football"> Football</label>
+			</div>
+			<div class="selection">
+				<label for="gardening"><input type="checkbox" id="gardening" name="interest" value="gardening"> Gardening</label>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<label for="num">Zip Code:
+		<input type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+			<!-- use the label example here -->
+			<label>Phone: 
+		<input type="tel" name="phone" placeholder="###-###-####">
+			</label><br>
+			<label for="email">eMail:
+		<input type="email" name="email" placeholder="user@email.org"></label><br>
+			<label for="u">URL: 
+		<input type="url" name="u" value="http://www.ibm.com"></label><br>
+		</fieldset>
+
+		<fieldset>
+			<label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+		<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span>
+		</label>
+
+			<datalist id="tickmarks">
+  <option value="0">
+  <option value="1">
+  <option value="2">
+  <option value="3">
+  <option value="4">
+  <option value="5">
+  <option value="6">
+  <option value="7">
+  <option value="8">
+  <option value="9">
+  <option value="10">
+</datalist>
+
+			<label for="browsers">Browser: 
+		<input name="browsers" list="browserlist"></label>
+			<datalist id="browserlist">
+			<option value="Google Chrome">
+  	  <option value="Mozilla Firefox">
+      <option value="Microsoft Edge">
+		</datalist>
+		</fieldset>
+
+		<fieldset>
+			Search: <input type="search"><br> Month: <input type="month"><br> Week: <input type="week">
+		</fieldset>
+
+		<fieldset>
+			<label for="theDate">Date Picker:
+		<input type="date" name="theDate"></label><br>
+			<label for="color">Choose a color:
+		<input type="color" name="color"></label>
+			<div class="buttons">
+				<input type="submit">
+				<input type="reset">
+				<input type="button" value="Button Value">
+			</div>
+		</fieldset>
+	</form>
+
+</div>

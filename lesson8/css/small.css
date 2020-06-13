@@ -6,15 +6,6 @@
 }
 
 
-#banner {
-	padding: .7em;
-	text-align: center;
-	background: #f1e363;
-	font-family: 'Roboto', sans-serif;
-	display: none;
-
-
-}
 
 nav {
 	margin: 0 auto;
@@ -112,36 +103,7 @@ body {
 
 }
 
-.herodiv {
-	margin: 10px auto;
-	position: relative;
-}
 
-.photo {
-	display: block;
-	width: 98%;
-	margin: 0 2%;
-}
-
-#heroimg {
-	width: 100%;
-	padding: 0;
-}
-
-.weather {
-	position: absolute;
-	top: 25px;
-	left: 50px;
-	background-color: #F1FAEE;
-	padding: 1.5rem;
-	opacity: 0.8;
-
-}
-
-.weather span {
-	font-weight: bold;
-	color: #36588C;
-}
 
 main {
 	max-width: 767px;
@@ -150,124 +112,26 @@ main {
 
 }
 
-.responsive li {
-	display: block;
-}
-
-.contentbox forecast {
-	padding: 10px;
-}
-
-.grid {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-	border-right: 1px solid #36588C;
-}
-
-.grid-col {
-	background-color: #bbb;
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
-	text-align: center;
-
-}
-
-.data {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 1rem;
-	text-align: center;
-}
-
-.col-head {
-
-	display: block;
-	padding: 5px;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-	text-align: center;
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #F1FAEE;
-	color: #36588C;
-}
-
-.article {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 10px;
-
-}
-
-.story {
-
-	font-size: 1rem;
-	margin: 0 auto;
-
-
-
-}
-
-.article img {
-	margin: 10px;
-	max-height: 200px;
-	float: left;
-}
-
-
-.contactinfo {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 10px;
-
-}
-
-.info {
-
-	font-size: 1rem;
-	margin: 0 auto;
-
-
-
-}
-
-.contactinfo iframe {
-	margin: 10px;
-	max-height: 200px;
-	float: left;
-}
-
 
 .container {
-	max-width: 760px;
+
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
-}
-
-figure {
-	margin: 0.25rem;
-	padding: 0.60rem;
-	background-color: #eee;
-	border: 1px solid #bbb;
-	display: flex;
-	flex-direction: column;
+	grid-gap: .5rem;
 	align-items: center;
-	width: 98%;
+	margin-top: .50rem;
 }
 
-figure img {
-	box-shadow: 0 0 30px #777;
-	border: 1px solid #333;
-	max-width: 245px;
+input,
+button,
+select,
+textarea {
+	padding: 0.5rem;
+	margin-bottom: .25rem;
 }
-
-figcaption {
-	padding: 0.25rem;
-
+fieldset {
+	background-color: #eee;
+	border: 1px solid #ccc;
 }
-
 footer {
 	text-align: center;
 }
