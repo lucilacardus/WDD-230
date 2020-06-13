@@ -42,27 +42,32 @@
 
         <form method="GET" action="thanks.html">
             <fieldset>
+                <legend>Contact Information</legend>
                 <div class="form-box">
-                    <label for="name">Enter your full name:</label>
-                    <input type="text" id="name" minlength="5" name="input1" required pattern="[A-z\s]{5,}">
+                    <label>Enter your full name:
+                    <input type="text" minlength="5" name="input1" required pattern="[A-z\s]{5,}"></label>
                 </div>
                 <div class="form-box">
-                    <label for="email">eMail:</label>
-                    <input type="email" id="email" name="email" placeholder="user@email.org"></div>
+                    <label>eMail:
+                    <input type="email" id="email" name="email" placeholder="user@email.org"></label></div>
                 <div class="form-box">
-                    <label for="tel">Phone:</label>
-                    <input type="tel" id="tel" name="phone" required>
+                    <label>Phone:
+                    <input type="tel" id="tel" name="phone" required></label>
                 </div>
                 <div class="form-box">
-                    <label for="num">Zip Code:</label>
-                    <input type="number" id="num" name="num" required>
+                    <label>Zip Code:
+                    <input type="number" name="num" required></label>
+                </div>
+
+            </fieldset>
+            <fieldset>
+              <legend>Storm Information</legend>
+                <div class="form-box">
+                    <label>Storm Date:
+                    <input type="date" name="date"></label>
                 </div>
                 <div class="form-box">
-                    <label for="theDate">Storm Date:</label>
-                    <input type="date" id=theDate name="theDate">
-                </div>
-                <div class="form-box">
-                    <label for="stormtype">Storm Type:</label>
+                    <label for="stormtype">Storm Type:
                     <input name="stormtypes" id="stormtype" list="stormtypelist">
                     <datalist id="stormtypelist">
                         <option value="Flash Flood">
@@ -70,11 +75,11 @@
                         <option value="Hurricane">
                         <option value="Thunderstorm">
                         <option value="Tornado">
-                    </datalist>
+                    </datalist></label>
                 </div>
                 <div class="form-box">
 
-                    <label class="flexly" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
+                    <label class="flexly" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
                     <span id="severity">5</span>
                     <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1"
                         list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
@@ -91,9 +96,10 @@
                         <option value="9"></option>
                         <option value="10"></option>
                     </datalist>
+                </label>
                 </div>
                 <div class="form-box">
-                    <label for="region">Storm Region:</label>
+                    <label>Storm Region:
                     <select name="region" id="region">
                         <option selected disabled>Select Region...</option>
                         <option value="preston">Preston</option>
@@ -101,30 +107,31 @@
                         <option value="fish Haven">Fish Haven</option>
 
 
-                    </select>
+                    </select></label>
                 </div>
 
                 <div class="form-box">
 
                     <label>User in-danger level:</label>
 
-                    <input type="radio" id="yes" name="choice" value="yes">
-                    <label for="yes">Yes</label>
+                    <input type="radio" name="choice" value="yes">
+                    <label >Yes</label>
 
-                    <input type="radio" id="no" name="choice" value="yes">
-                    <label for="no">No</label>
+                    <input type="radio" name="choice" value="yes">
+                    <label>No</label>
 
-                    <input type="radio" id="maybe" name="choice" value="yes">
-                    <label for="maybe">Maybe</label>
+                    <input type="radio"  name="choice" value="yes">
+                    <label>Maybe</label>
 
                 </div>
                 <div class="form-box">
-                    <label for="comments">Additional information or comments</label>
-                    <textarea id="comments" name="comments" rows="4" cols="50">
+                    <label>Additional information or comments</label>
+                    <textarea name="comments" rows="4" cols="50">
                     </textarea>
                 </div>
                 <div class="form-box">
-                    <input type="submit" value="Submit">
+                    <label>
+                    <input type="submit" value="Submit"></label>
                 </div>
             </fieldset>
         </form>
