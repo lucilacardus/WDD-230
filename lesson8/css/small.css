@@ -153,7 +153,10 @@ legend,
 	flex-basis: 100%;
 }
 
+.form-box input,{
+	margin: 5px;
 
+}
 
 fieldset {
 	background-color: #eee;

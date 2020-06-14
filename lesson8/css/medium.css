@@ -72,7 +72,10 @@
 	.form-box label {
 		flex-direction: row;
 	}
+	.form-box input,{
+		margin: 5px;
 
+	}
 	
 
 	select,

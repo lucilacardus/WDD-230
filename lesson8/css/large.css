@@ -66,7 +66,10 @@
 
 	}
 
-	
+	.form-box input,{
+		margin: 5px;
+
+	}
 
 	.form-box input,
 	.form-box select,
