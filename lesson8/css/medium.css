@@ -44,7 +44,9 @@
 	}
 
 	.form-box {
-		flex-direction: row;
+		
+		display: block;
+
 	}
 
 	.form-box label {
@@ -68,8 +70,8 @@
 	}
 
 	.form-box label {
-		display: block;
+		flex-direction: row;
 	}
-
+     
 
 }

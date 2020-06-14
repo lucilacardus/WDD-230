@@ -83,11 +83,13 @@
 	}
 
 	.form-box label {
-		display: block;
+		
+		flex-direction: row;
 	}
 
 	.form-box {
-		flex-direction: row;
+		display: block;
 	}
+	
 
 }
