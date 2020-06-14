@@ -128,7 +128,8 @@ button {
 
 
 
-fieldset:nth-child(1)>legend {
+legend,
+.form-box:nth-child(6) {
 	padding: 0.2rem 1rem;
 	font-size: 1rem;
 	color: inherit;
