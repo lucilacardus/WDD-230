@@ -143,6 +143,10 @@ legend,
 
 }
 
+.form-box:nth-child(6){
+	padding: 0.5rem 0;
+}
+
 .form-box input,
 .form-box select,
 .form-box textarea {
