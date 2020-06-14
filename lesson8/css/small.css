@@ -168,3 +168,7 @@ fieldset {
 footer {
 	text-align: center;
 }
+
+.radio {
+	display: inline-block;
+}
