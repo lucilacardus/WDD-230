@@ -66,6 +66,10 @@
 
 	}
 
+	.form-box:nth-child(6){
+		flex-direction: column;
+
+	}
 
 	.form-box input,
 	.form-box select,
