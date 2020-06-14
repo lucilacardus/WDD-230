@@ -58,10 +58,7 @@
 		box-shadow: 0 0 50px #333;
 	}
 
-	.form-box {
-		flex-direction: row;
-	}
-
+	
 	.form-box label {
 		flex-basis: 10.5rem;
 		flex-grow: 0;
@@ -82,15 +79,7 @@
 		margin-left: 9rem;
 	}
 
-	.form-box label {
-
-		flex-direction: row;
-	}
-
-	.form-box {
-		display: block;
-	}
-
+	
 	select,
 	span,
 	option,
