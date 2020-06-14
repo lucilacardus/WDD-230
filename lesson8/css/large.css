@@ -93,6 +93,9 @@
 		font-size: 18px;
 
 	}
+	.form-box:nth-child(6){
+		display: inline-block;
+	}
 
 
 
