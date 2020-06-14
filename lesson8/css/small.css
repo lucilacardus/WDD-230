@@ -129,14 +129,19 @@ button {
 
 
 legend,
-.form-box:nth-child(6) {
+ {
 	padding: 0.2rem 1rem;
 	font-size: 16px;
 	color: inherit;
 
 }
 
-.form-box label {
+.form-box:nth-child(6){
+	font-size: 16px;
+	color: inherit;
+
+}
+.form-box label,  {
 	padding: 0.5rem 0;
 	display: flex;
 	flex-direction: column;

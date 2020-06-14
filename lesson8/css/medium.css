@@ -73,10 +73,7 @@
 		flex-direction: row;
 	}
 
-	.form-box:nth-child(6){
-		flex-direction: column;
-
-	}
+	
 
 	select,
 	span,
