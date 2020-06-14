@@ -93,12 +93,11 @@
 		font-size: 18px;
 
 	}
-	.radio {
+	form label .radio {
 	
 		display: block;
 		padding: .75rem 0;
 	}
-
 
 
 

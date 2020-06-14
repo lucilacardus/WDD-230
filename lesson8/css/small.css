@@ -169,7 +169,7 @@ footer {
 	text-align: center;
 }
 
-.radio {
+form label .radio {
 	
 	display: block;
     padding: .75rem 0;
