@@ -110,7 +110,7 @@ main {
 	max-width: 767px;
 	width: 90%;
 	margin: 1rem auto;
-	font-size: 1rem;
+	
 
 }
 
@@ -121,7 +121,7 @@ input,
 label,
 button {
 	padding: 0.2rem 1rem;
-	font-size: 1rem;
+	font-size: 16px;
 	color: inherit;
 }
 
@@ -131,7 +131,7 @@ button {
 legend,
 .form-box:nth-child(6) {
 	padding: 0.2rem 1rem;
-	font-size: 1rem;
+	font-size: 16px;
 	color: inherit;
 
 }
