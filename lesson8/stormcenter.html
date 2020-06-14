@@ -45,69 +45,69 @@
                 <legend>Contact Information</legend>
                 <div class="form-box">
                     <label>Enter your full name:
-                    <input type="text" minlength="5" name="input1" required pattern="[A-z\s]{5,}"></label>
+                        <input type="text" minlength="5" name="input1" required pattern="[A-z\s]{5,}"></label>
                 </div>
                 <div class="form-box">
                     <label>eMail:
-                    <input type="email" id="email" name="email" placeholder="user@email.org"></label></div>
+                        <input type="email" id="email" name="email" placeholder="user@email.org"></label></div>
                 <div class="form-box">
                     <label>Phone:
-                    <input type="tel" id="tel" name="phone" required></label>
+                        <input type="tel" id="tel" name="phone" required></label>
                 </div>
                 <div class="form-box">
                     <label>Zip Code:
-                    <input type="number" name="num" required></label>
+                        <input type="number" name="num" required></label>
                 </div>
 
             </fieldset>
             <fieldset>
-              <legend>Storm Information</legend>
+                <legend>Storm Information</legend>
                 <div class="form-box">
                     <label>Storm Date:
-                    <input type="date" name="date"></label>
+                        <input type="date" name="date"></label>
                 </div>
                 <div class="form-box">
                     <label for="stormtype">Storm Type:
-                    <input name="stormtypes" id="stormtype" list="stormtypelist">
-                    <datalist id="stormtypelist">
-                        <option value="Flash Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
-                    </datalist></label>
+                        <input name="stormtypes" id="stormtype" list="stormtypelist">
+                        <datalist id="stormtypelist">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist></label>
                 </div>
                 <div class="form-box">
 
                     <label class="flexly">Storm Severity: &nbsp;&nbsp;&nbsp;
-                    <span id="severity">5</span>
-                    <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1"
-                        list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                    <datalist id="tickmarks">
-                        <option value="0"></option>
-                        <option value="1"></option>
-                        <option value="2"></option>
-                        <option value="3"></option>
-                        <option value="4"></option>
-                        <option value="5"></option>
-                        <option value="6"></option>
-                        <option value="7"></option>
-                        <option value="8"></option>
-                        <option value="9"></option>
-                        <option value="10"></option>
-                    </datalist>
-                </label>
+                        <span id="severity">5</span>
+                        <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1"
+                            list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                        <datalist id="tickmarks">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </label>
                 </div>
                 <div class="form-box">
                     <label>Storm Region:
-                    <select name="region" id="region">
-                        <option selected disabled>Select Region...</option>
-                        <option value="preston">Preston</option>
-                        <option value="soda Springs">Soda Springs</option>
-                        <option value="fish Haven">Fish Haven</option>
+                        <select name="region" id="region">
+                            <option selected disabled>Select Region...</option>
+                            <option value="preston">Preston</option>
+                            <option value="soda Springs">Soda Springs</option>
+                            <option value="fish Haven">Fish Haven</option>
 
 
-                    </select></label>
+                        </select></label>
                 </div>
 
                 <div class="form-box">
@@ -115,22 +115,22 @@
                     User in-danger level:
 
                     <label><input type="radio" name="choice" value="yes">
-                    Yes</label>
+                        Yes</label>
 
                     <label><input type="radio" name="choice" value="yes">
-                    No</label>
+                        No</label>
 
-                    <label><input type="radio"  name="choice" value="yes">
-                    Maybe</label>
-                
+                    <label><input type="radio" name="choice" value="yes">
+                        Maybe</label>
+
                 </div>
                 <div class="form-box">
                     <label>Additional information or comments
-                    <textarea name="comments" rows="4" cols="50">
+                        <textarea name="comments" rows="4" cols="15">
                     </textarea>
                 </div>
                 <div class="form-box">
-                    
+
                     <input type="submit" value="Submit">
                 </div>
             </fieldset>

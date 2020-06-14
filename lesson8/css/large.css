@@ -83,13 +83,34 @@
 	}
 
 	.form-box label {
-		
+
 		flex-direction: row;
 	}
 
 	.form-box {
 		display: block;
 	}
-	
+
+	select,
+	span,
+	option,
+	input,
+	label,
+	button {
+
+		font-size: 1.2rem;
+
+	}
+
+
+
+
+	fieldset:nth-child(1)>legend {
+
+		font-size: 1.5rem;
+
+
+	}
+
 
 }

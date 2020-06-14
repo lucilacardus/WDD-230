@@ -115,13 +115,24 @@ main {
 }
 
 select,
+span,
 option,
 input,
 label,
 button {
 	padding: 0.2rem 1rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: inherit;
+}
+
+
+
+
+fieldset:nth-child(1)>legend {
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+	color: inherit;
+
 }
 
 .form-box {
@@ -129,11 +140,6 @@ button {
 	display: flex;
 	flex-direction: column;
 
-}
-
-span {
-	font-size: 1rem;
-	line-height: 1em;
 }
 
 .form-box input,
