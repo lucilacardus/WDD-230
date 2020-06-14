@@ -96,22 +96,18 @@
 	option,
 	input,
 	label,
-	button {
-
-		font-size: 1.5rem;
-
-	}
-
-
-
-
+	button,
 	legend,
 	.form-box:nth-child(6) {
 
-		font-size: 1.5rem;
-
+		font-size: 1.2rem;
 
 	}
+
+
+
+
+
 
 
 }
