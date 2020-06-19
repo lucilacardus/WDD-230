@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
       const prophets = jsonObject['prophets'];
-       {
+       
 
         
       forEach(prophet => {
@@ -30,4 +30,4 @@ fetch(requestURL)
 
       }
 
-    });
+      )})
