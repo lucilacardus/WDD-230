@@ -38,11 +38,10 @@ fetch(requestURL)
                 let picture = document.createElement('div');
                 picture.classList.add('homepic')
                 let image = document.createElement('img');
-                let alt = document.createElement('alt');
-                alt.setAttribute('alt', place.name);
+                
                 image.setAttribute('src', "images/" + place.photo);
                 picture.appendChild(image)
-
+                image.setAttribute('alt', place[i].name);
 
                 section.appendChild(containtext)
                 section.appendChild(picture)
