@@ -158,7 +158,7 @@ article {
 
 .news img {
     margin: 3px;
-    width: 90%;
+    width: 250px;
     height: auto;
 
 }
@@ -173,6 +173,10 @@ h2{
 h3{
 	font-size: x-small;
 	font-style: italic;
+}
+
+footer a{
+	text-decoration: none;
 }
 
 
