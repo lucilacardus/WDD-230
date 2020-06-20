@@ -193,6 +193,8 @@ div.home section {
 	border: 1px solid #bbb;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+
 }
 
 div.home section img {
@@ -203,16 +205,6 @@ div.home section img {
 }
 
 
-section {
-	max-width: 600px;
-  margin: .5rem auto;
-	border:1px solid #bbb;
-  background-color: #eee;
-	display: flex;
-	flex-wrap: wrap;
-}
 
 
-div.home section:nth-child(odd) {
-	flex-direction: row-reverse;
-}
+
