@@ -182,7 +182,8 @@ form label .radio {
 div.home {
     display: flex;
     box-shadow: 0px 0px 10px;
-    margin: auto;
+	margin: auto;
+	max-width: 760px;
     
 }
 
@@ -193,13 +194,15 @@ div.home section {
 	border: 1px solid #bbb;
 	flex-direction: row;
 	flex-wrap: wrap;
+	max-width: 230px;
+	
 
 }
 
 div.home section img {
     
-    max-width: 250px;
-    margin: 20px;
+    max-width: 230px;
+    margin: 5px;
     box-shadow: 0 0 10px;
 }
 
