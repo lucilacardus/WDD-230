@@ -74,8 +74,5 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    body {
-        background-image: url(images/slctemple7large.jpg);
-       
-    }
+    
 }
