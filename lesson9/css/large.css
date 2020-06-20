@@ -115,6 +115,10 @@ article:nth-child(odd) {
 .homepic {
     width: 100%;
 }
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 
 }
