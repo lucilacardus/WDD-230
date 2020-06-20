@@ -106,16 +106,14 @@
 		margin: auto;
 		max-width: 760px;
 		background-color: #bbb;
+		flex-wrap: wrap;
 		
 	}
 	
 	div.home section {
-		
-		text-align: center;
-		align-content: center;
+		display: flex;
 		flex-direction: row;
-		flex-wrap: wrap;
-		max-width: 760px;
+				max-width: 760px;
 		
 	
 	}
