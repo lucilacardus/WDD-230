@@ -14,6 +14,7 @@ fetch(requestURL)
             console.table(jsonObject); 
             const towns = jsonObject['towns'];
             for (let i = 0; i < towns.length; i++) {
+                if (i == 1 || i == 4 || i == 5) {
                 let town = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
@@ -40,5 +41,5 @@ fetch(requestURL)
                 town.appendChild(image); 
 
                 document.querySelector('div.home').appendChild(town);
-            }});
+    }}});
         
