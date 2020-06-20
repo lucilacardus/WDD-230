@@ -194,15 +194,15 @@ div.home section {
 	border: 1px solid #bbb;
 	flex-direction: row;
 	flex-wrap: wrap;
-	max-width: 230px;
+	max-width: 244px;
 	
 
 }
 
 div.home section img {
     
-    max-width: 230px;
-    margin: 5px;
+    max-width: 244px;
+    margin: 10cpx;
     box-shadow: 0 0 10px;
 }
 
