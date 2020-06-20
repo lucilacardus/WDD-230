@@ -38,7 +38,6 @@ fetch(requestURL)
                 town.appendChild(p2);
                 town.appendChild(p3);
                 town.appendChild(image); 
-                town.appendChild(image)
 
                 document.querySelector('div.home').appendChild(town);
             }});
