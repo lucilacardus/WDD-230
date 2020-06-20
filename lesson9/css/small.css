@@ -187,11 +187,10 @@ div.home {
 }
 
 div.home section {
-    background-color: #b8b9cd;
+    background-color: #bbb;
     text-align: center;
     align-content: center;
 	border: 1px solid #bbb;
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 
@@ -199,8 +198,8 @@ div.home section {
 
 div.home section img {
     
-    max-width: 350px;
-    margin: 10px;
+    max-width: 250px;
+    margin: 20px;
     box-shadow: 0 0 10px;
 }
 
