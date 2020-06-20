@@ -139,8 +139,9 @@ div.home section {
 	
 	text-align: center;
 	align-content: center;
-	flex-direction: column;
-	max-width: 300px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 245px;
 	
 
 }
@@ -151,7 +152,6 @@ div.home section img {
 	margin: 10px;
 	box-shadow: 0 0 10px;
 	border: 1px solid #bbb;
-	flex-direction: column;
 
 }
 
