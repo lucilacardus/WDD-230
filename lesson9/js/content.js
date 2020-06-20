@@ -41,7 +41,7 @@ fetch(requestURL)
                 
                 image.setAttribute('src', "images/" + place.photo);
                 picture.appendChild(image)
-                image.setAttribute('alt', place[i].name);
+                image.setAttribute('alt', towns[i].name);
 
                 section.appendChild(containtext)
                 section.appendChild(picture)
