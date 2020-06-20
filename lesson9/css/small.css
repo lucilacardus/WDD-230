@@ -140,7 +140,7 @@ div.home section {
 	text-align: center;
 	align-content: center;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	max-width: 245px;
 	
 
