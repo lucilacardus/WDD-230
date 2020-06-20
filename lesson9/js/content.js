@@ -38,6 +38,6 @@ fetch(requestURL)
                 card.appendChild(p3);
                 card.appendChild(image); 
 
-                document.querySelector('div.home').appendChild(home);
+                document.querySelector('div.home').appendChild(card);
             }});
         
