@@ -41,7 +41,7 @@
 		display: none;
 	}
 
-	.townname{
+	.home{
 		grid-template-columns: repeat(3, 1fr);
 	   
 	}

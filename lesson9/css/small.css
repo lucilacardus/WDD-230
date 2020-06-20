@@ -126,7 +126,7 @@ h2 {
 	padding-bottom: 5px;
 }
 
-.townname {
+.home {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
