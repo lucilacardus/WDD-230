@@ -128,12 +128,8 @@
 	  width: 50%;
   
   }
-  .gallery {
-	  grid-template-columns: repeat(2, 1fr)    }
-  .forecast {
-	  display: block;
-   
-  }
+  
+  
   .artic figure img {
 	  display: block;
 	  padding: 1rem;
