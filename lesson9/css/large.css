@@ -48,61 +48,47 @@
 		padding-bottom: 5px;
 	}
 
-	.article,
-	.contactinfo {
-		flex-flow: nowrap;
-		margin: 10px;
-
-	}
-
-	figure:hover {
-		box-shadow: 0 0 50px #333;
-	}
-
-	
-	.form-box label {
-		flex-basis: 10.5rem;
-		flex-grow: 0;
-		flex-shrink: 0;
+	div.home {
+		display: flex;
+		box-shadow: 0px 0px 10px;
+		margin: auto;
+		max-width: 760px;
+		background-color: #bbb;
 		
-
 	}
-
-	.form-box input{
-		margin: 5px;
-
-	}
-
-	.form-box input,
-	.form-box select,
-	.form-box textarea {
-		flex-basis: 0;
-		flex-grow: 1;
-		flex-shrink: 1;
-	}
-
-	.form-box button {
-		margin-left: 9rem;
-	}
-
 	
-	select,
-	span,
-	option,
-	input,
-	label,
-	button,
-	legend,
-	.form-box:nth-child(6) {
-
-		font-size: 18px;
-
-	}
-	form label .radio {
+	div.home section {
+		
+		text-align: center;
+		align-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 245px;
+		
 	
-		display: block;
-		padding: .75rem 0;
 	}
+	
+	div.home section img {
+		
+		max-width: 240px;
+		margin: 10px;
+		box-shadow: 0 0 10px;
+		border: 1px solid #bbb;
+	
+	}
+	
+	p {
+		padding-top: 10px;
+	}
+	h2{
+		font-size: x-large;
+	}
+	
+	h3{
+		font-size: x-small;
+		font-style: italic;
+	}
+	
 
 
 
