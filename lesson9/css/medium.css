@@ -100,4 +100,33 @@
 	}
 
 
+	div.home {
+		display: flex;
+		box-shadow: 0px 0px 10px;
+		margin: auto;
+		max-width: 760px;
+		background-color: #bbb;
+		
+	}
+	
+	div.home section {
+		
+		text-align: center;
+		align-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 245px;
+		
+	
+	}
+	
+	div.home section img {
+		
+		max-width: 760px;
+		margin: 10px;
+		box-shadow: 0 0 10px;
+		border: 1px solid #bbb;
+	
+	}
+
 }
