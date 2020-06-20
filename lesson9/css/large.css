@@ -41,11 +41,11 @@
 		display: none;
 	}
 
-	.home {
+	div.home {
         grid-template-columns: 1fr 1fr 1fr;
 	}
 	
-	.home section img{
+	div.home section img{
 		max-width: 240px;
 	}
 
