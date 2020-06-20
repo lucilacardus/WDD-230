@@ -48,7 +48,7 @@ fetch(requestURL)
                 section.appendChild(picture)
 
 
-                document.querySelector('div.townname').appendChild(section);
+                document.querySelector('div.home').appendChild(section);
             }
         }
     });
