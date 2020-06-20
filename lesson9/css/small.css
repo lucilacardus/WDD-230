@@ -177,3 +177,27 @@ form label .radio {
 	display: block;
     padding: .75rem 0;
 }
+
+
+div.town {
+    display: grid;
+    grid-gap: 5px;
+    box-shadow: 0px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    
+}
+
+div.town section {
+    background-color: #b8b9cd;
+    text-align: center;
+    align-content: center;
+    border: 1px solid #5d589a;
+}
+
+div.town section img {
+    
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px;
+}
