@@ -201,7 +201,7 @@ div.home section {
 
 div.home section img {
     
-    max-width: 245px;
+    max-width: 240px;
     margin: 10px;
 	box-shadow: 0 0 10px;
 	border: 1px solid #bbb;
@@ -211,6 +211,11 @@ div.home section img {
 p {
 	padding-top: 10px;
 }
+h2{
+	font-size: larger;
+}
 
-
+h3{
+	font-size: large;
+}
 
