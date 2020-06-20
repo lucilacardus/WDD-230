@@ -163,6 +163,7 @@ h2{
 }
 
 h3{
-	font-size: large;
+	font-size: smaller;
+	font-style: italic;
 }
 
