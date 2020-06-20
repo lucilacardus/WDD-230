@@ -95,30 +95,42 @@
 	
 
 
-.townname{
-    grid-template-columns: repeat(3, 1fr);
-   
-}
-article {
-    flex-direction: column;
-    align-items: center;
-}
-
-article:nth-child(odd) {
-    flex-direction: column;
-}
-
-.textcol {
-    width: 100%;
-    line-height: 10px;
-}
-.homepic {
-    width: 100%;
-}
-.gallery {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-
+	.townname{
+		grid-template-columns: repeat(3, 1fr);
+	   
+	}
+	article {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	article:nth-child(odd) {
+		flex-direction: column;
+	}
+	
+	.textcol {
+		width: 100%;
+		line-height: 10px;
+	}
+	.homepic {
+		width: 100%;
+	}
+	.texcol{
+	   
+	}
+	
+	figure:hover {
+		box-shadow: 0 0 50px #333;
+	 }
+	
+	
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
+	article h3 {
+		font-size: 14px;
+	overflow-wrap: break-word;
+	}
 
 }
