@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 60em) {
 	body {
 		margin: auto;
 		min-width: 60em;
@@ -41,41 +41,17 @@
 		display: none;
 	}
 
-	.home {
-		grid-template-columns: repeat(3, 1fr);
-
+	h2 {
+		font-size: 1rem;
+		color: #36588C;
+		padding-top: 5px;
 	}
 
-	article {
-		flex-direction: column;
-		align-items: center;
+	.article,
+	.contactinfo {
+		flex-flow: nowrap;
+		margin: 10px;
+
 	}
-
-	article:nth-child(odd) {
-		flex-direction: column;
-	}
-
-	.textcol {
-		width: 100%;
-		line-height: 10px;
-	}
-
-	.homepic {
-		width: 100%;
-	}
-
-
-	figure:hover {
-		box-shadow: 0 0 50px #333;
-	}
-
-
-
-
-	article h3 {
-		font-size: 14px;
-		overflow-wrap: break-word;
-	}
-
 
 }
