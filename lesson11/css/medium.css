@@ -42,4 +42,23 @@
 		margin: 10px;
 
 	}
+	.homepic {
+		margin-top: 8px;
+		width: 50%;
+
+	}
+
+	.news p {
+		width: 50%;
+	}
+
+	.news {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.news img {
+		width: 50%;
+
+	}
 }

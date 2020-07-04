@@ -246,3 +246,41 @@ main {
 footer {
 	text-align: center;
 }
+
+
+.home {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(1, 1fr);
+	justify-content: center;
+	margin: 1rem auto;
+}
+
+.homepic img {
+	width: 90%;
+	height: auto;
+	margin: 5px;
+	align-self: center;
+}
+
+article {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: lightgray;
+	
+
+}
+
+.news {
+	text-align: center;
+
+}
+
+.news img {
+	margin: 3px;
+	width: 250px;
+	height: auto;
+
+}
