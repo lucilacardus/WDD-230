@@ -76,6 +76,50 @@
 	.homepic {
 		width: 100%;
 	}
+	.form-box label {
+		flex-basis: 10.5rem;
+		flex-grow: 0;
+		flex-shrink: 0;
+		
+
+	}
+
+	.form-box input{
+		margin: 5px;
+
+	}
+
+	.form-box input,
+	.form-box select,
+	.form-box textarea {
+		flex-basis: 0;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+
+	.form-box button {
+		margin-left: 9rem;
+	}
+
+	
+	select,
+	span,
+	option,
+	input,
+	label,
+	button,
+	legend,
+	.form-box:nth-child(6) {
+
+		font-size: 18px;
+
+	}
+	form label .radio {
+	
+		display: block;
+		padding: .75rem 0;
+	}
+
 
 
 

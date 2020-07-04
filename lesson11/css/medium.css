@@ -74,5 +74,62 @@
 	.news img {
 		width: 50%;
 
+	
+	}
+
+	.form-box {
+
+		display: block;
+
+	}
+
+	.form-box label {
+		flex-basis: 9rem;
+		flex-grow: 0;
+		flex-shrink: 0;
+		
+
+	}
+
+
+	.form-box input,
+	.form-box select,
+	.form-box textarea {
+		flex-basis: 0;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+
+	.form-box button {
+		margin-left: 9rem;
+	}
+
+	.form-box label {
+		flex-direction: row;
+	}
+	.form-box input{
+		margin: 5px;
+
+	}
+	
+
+	select,
+	span,
+	option,
+	input,
+	label,
+	button,
+	legend,
+	.form-box:nth-child(6) {
+
+		font-size: 18px;
+
+	}
+
+	
+	form label .radio {
+	
+		display: block;
+		padding: .75rem 0;
 	}
 }
