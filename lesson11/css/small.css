@@ -225,13 +225,20 @@ main {
 	display: flex;
 	flex-flow: row wrap;
 	margin: 10px;
+	
 
 }
 
 .info {
 
 	font-size: 1rem;
-	margin: 0 auto;
+	margin: 1rem;
+	text-align: center;
+    line-height: 10px;
+    padding: 0 1rem;
+    width:100% ;
+	overflow: hidden;
+	
 
 
 
@@ -366,7 +373,7 @@ figcaption {
     margin: auto;
     text-align: center;
 	width: 300px;
-	padding: 10px;
+	padding: 5px;
 	justify-content: center;
 	margin: 1rem auto;
 	background-color: #eee;
