@@ -42,6 +42,20 @@
 		margin: 10px;
 
 	}
+
+	article {
+		flex-direction: row;
+	}
+
+	article:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+
+	.textcol {
+		width: 50%;
+		padding: 25px 0;
+	}
+
 	.homepic {
 		margin-top: 8px;
 		width: 50%;
