@@ -114,6 +114,11 @@
 		font-size: 18px;
 
 	}
+
+	form label textarea{
+		display: block;
+	}
+
 	
 
 
