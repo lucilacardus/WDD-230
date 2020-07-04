@@ -366,9 +366,10 @@ figcaption {
     margin: auto;
     text-align: center;
 	width: 300px;
-	    padding: 5px;
+	padding: 10px;
 	justify-content: center;
 	margin: 1rem auto;
 	background-color: #eee;
 	border: 1px solid #ccc;
 }
+
