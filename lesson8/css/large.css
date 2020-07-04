@@ -102,7 +102,9 @@
 		display: block;
 		padding: .75rem 0;
 	}
-
+	form label textarea{
+		display: block;
+	}
 
 
 }
