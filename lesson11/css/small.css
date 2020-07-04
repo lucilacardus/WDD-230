@@ -365,8 +365,8 @@ figcaption {
 .events {
     margin: auto;
     text-align: center;
-    width: 400px;
-    padding: 5px;
+	width: 300px;
+	    padding: 5px;
 	justify-content: center;
 	margin: 1rem auto;
 	background-color: #eee;
