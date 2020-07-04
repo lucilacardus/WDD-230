@@ -13,4 +13,4 @@ fetch(requestURL)
         let info = document.createElement('p');
         info.innerText = event             
         document.querySelector('div.events').appendChild(info);
-    })
+    })}
