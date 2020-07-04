@@ -117,6 +117,7 @@
 
 	form label textarea{
 		display: block;
+		position: relative;
 	}
 
 	
