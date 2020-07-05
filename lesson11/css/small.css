@@ -285,11 +285,12 @@ article {
 .news {
 	text-align: center;
 	padding: 10px;
+	margin: 10px;
 
 }
 
 .news img {
-	margin: 3px;
+	margin: 10px;
 	width: 250px;
 	height: auto;
 
