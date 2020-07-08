@@ -386,9 +386,13 @@ figcaption {
 .terms {
 	padding-bottom: 20px;
 	margin-bottom: 10px;
+
 	
 }
 
+.terms a{
+	text-decoration: none;
+}
 
 
 .terms h1 {
