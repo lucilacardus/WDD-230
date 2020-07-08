@@ -227,7 +227,7 @@ main {
 	display: flex;
 	flex-flow: row wrap;
 	margin: 10px;
-	
+
 
 }
 
@@ -236,11 +236,11 @@ main {
 	font-size: 1rem;
 	margin: 1rem;
 	text-align: center;
-    line-height: 10px;
-    padding: 0 1rem;
-    width:100% ;
+	line-height: 10px;
+	padding: 0 1rem;
+	width: 100%;
 	overflow: hidden;
-	
+
 
 
 
@@ -278,7 +278,7 @@ article {
 	flex-direction: column;
 	justify-content: center;
 	background-color: lightgray;
-	
+
 
 }
 
@@ -295,6 +295,7 @@ article {
 	height: auto;
 
 }
+
 legend,
 .form-box:nth-child(6) {
 	padding: 0.2rem 1rem;
@@ -303,14 +304,14 @@ legend,
 
 }
 
-.form-box label  {
+.form-box label {
 	padding: 0.5rem 0;
 	display: flex;
 	flex-direction: column;
 
 }
 
-.form-box:nth-child(6){
+.form-box:nth-child(6) {
 	padding: 0.5rem 0;
 }
 
@@ -320,7 +321,7 @@ legend,
 	flex-basis: 100%;
 }
 
-.form-box input{
+.form-box input {
 	margin: 5px;
 
 }
@@ -340,9 +341,9 @@ footer {
 }
 
 form label.radio {
-	
+
 	display: block;
-    padding: .75rem 0;
+	padding: .75rem 0;
 }
 
 .container {
@@ -374,8 +375,8 @@ figcaption {
 }
 
 .events {
-    margin: auto;
-    text-align: center;
+	margin: auto;
+	text-align: center;
 	width: 300px;
 	padding: 5px;
 	justify-content: center;
@@ -383,14 +384,15 @@ figcaption {
 	background-color: #eee;
 	border: 1px solid #ccc;
 }
+
 .terms {
 	padding-bottom: 20px;
 	margin-bottom: 10px;
 
-	
+
 }
 
-.terms a{
+.terms a {
 	text-decoration: none;
 }
 
@@ -398,10 +400,12 @@ figcaption {
 .terms h1 {
 	font-size: 1rem;
 }
-.terms li{
-list-style: none;
+
+.terms li {
+	list-style: none;
 }
-footer a{
+
+footer a {
 	text-decoration: none;
 	color: #F1FAEE;
 }
