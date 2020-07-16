@@ -35,7 +35,6 @@ nav {
 
 .navigation a:link,
 nav a:visited {
-	color: #E1DDDB;
 	text-decoration: none;
 	transition: .5s;
 
