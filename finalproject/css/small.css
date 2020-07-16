@@ -81,13 +81,14 @@ header img {
 .headings h1 {
 	margin: 0 0 0 17px;
 	font-size: 1.5rem;
+	color: #EF6C33;
 }
 
 .slogan {
 	font-style: italic;
-	color: #F1FAEE;
-	margin-left: 20px;
-	font-size: .7rem;
+	color: #ABDFF1;
+	margin-left: 30px;
+	font-size: 1rem;
 }
 
 h1,
