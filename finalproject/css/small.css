@@ -110,6 +110,10 @@ body {
 
 }
 
+#date{
+	font-size: 16px;
+
+}
 .herodiv {
 	margin: 10px auto;
 	position: relative;
@@ -328,9 +332,6 @@ fieldset {
 	align-items: center;
 }
 
-footer {
-	text-align: center;
-}
 
 form label.radio {
 
