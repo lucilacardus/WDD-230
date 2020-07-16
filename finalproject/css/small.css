@@ -14,6 +14,8 @@ nav {
 .navigation {
 	list-style: none;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 
 .navigation a {
@@ -33,7 +35,7 @@ nav {
 
 .navigation a:link,
 nav a:visited {
-	color: #E1DDDB;
+	color: #EF6C33;
 	text-decoration: none;
 	transition: .5s;
 
