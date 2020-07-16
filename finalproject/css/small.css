@@ -11,7 +11,7 @@
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: #bbb;
+	background-color: #EF6C33;
 }
 
 .navigation {
@@ -26,30 +26,27 @@ nav {
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: #3B6AA0;
+	color: #0C4A60;
 	font-size: 1rem;
 }
 
 .navigation a:hover {
-	background-color: #F1FAEE;
-	color: #36454f;
+	background-color: #E1DDDB;
+	color: #0C4A60;
 }
 
-.navigation a:active {
-	text-decoration: underline #36454f;
 
-}
 
 .navigation a:link,
 nav a:visited {
-	color: #36454f;
+	color: #0C4A60;
 	text-decoration: none;
 	transition: .5s;
 
 }
 
 .active {
-	background-color: #F1FAEE;
+	background-color: #E1DDDB;
 
 
 }
