@@ -5,9 +5,6 @@
 	line-height: 1em;
 }
 
-
-
-
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -18,8 +15,6 @@ nav {
 	list-style: none;
 	padding: 0;
 }
-
-
 
 .navigation a {
 	display: block;
@@ -34,7 +29,6 @@ nav {
 	background-color: #E1DDDB;
 	color: #EF6C33;
 }
-
 
 
 .navigation a:link,
@@ -60,10 +54,7 @@ footer {
 	justify-content: center;
 	padding: 5px 0;
 
-
 }
-
-
 
 header img {
 	width: 100px;
@@ -109,40 +100,11 @@ body {
 
 }
 
-#last{
+#last {
 	font-size: 16px;
 
 }
-.herodiv {
-	margin: 10px auto;
-	position: relative;
-}
 
-.photo {
-	display: block;
-	width: 98%;
-	margin: 0 2%;
-}
-
-#heroimg {
-	width: 100%;
-	padding: 0;
-}
-
-.weather {
-	position: absolute;
-	top: 25px;
-	left: 50px;
-	background-color: #F1FAEE;
-	padding: 1.5rem;
-	opacity: 0.8;
-
-}
-
-.weather span {
-	font-weight: bold;
-	color: #36588C;
-}
 
 main {
 	max-width: 767px;
@@ -151,251 +113,12 @@ main {
 
 }
 
-.responsive li {
-	display: block;
-}
 
-.contentbox forecast {
-	padding: 10px;
-}
-
-.grid {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-	border-right: 1px solid #36588C;
-}
-
-.grid-col {
-	background-color: #bbb;
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
-	text-align: center;
-
-}
-
-.data {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 1rem;
-	text-align: center;
-}
-
-.col-head {
-
-	display: block;
-	padding: 5px;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-	text-align: center;
-	font-weight: 700;
-	font-size: 1rem;
-	background-color: #F1FAEE;
-	color: #36588C;
-}
-
-.article {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 10px;
-
-}
-
-.story {
-
-	font-size: 1rem;
-	margin: 0 auto;
-
-
-
-}
-
-.article img {
-	margin: 10px;
-	max-height: 200px;
-	float: left;
-}
-
-
-.contactinfo {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 10px;
-
-
-}
-
-.info {
-
-	font-size: 1rem;
-	margin: 1rem;
-	text-align: center;
-	line-height: 10px;
-	padding: 0 1rem;
-	width: 100%;
-	overflow: hidden;
-
-
-
-
-}
-
-.contactinfo iframe {
-	margin: 10px;
-	max-height: 200px;
-	float: left;
-}
 
 footer {
 	text-align: center;
 }
 
-
-.home {
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: repeat(1, 1fr);
-	justify-content: center;
-	margin: 1rem auto;
-}
-
-.homepic img {
-	width: 90%;
-	height: auto;
-	margin: 5px;
-	align-self: center;
-}
-
-article {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: lightgray;
-
-
-}
-
-.news {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-
-}
-
-.news img {
-	margin: 10px;
-	width: 250px;
-	height: auto;
-
-}
-
-legend,
-.form-box:nth-child(6) {
-	padding: 0.2rem 1rem;
-	font-size: 16px;
-	color: inherit;
-
-}
-
-.form-box label {
-	padding: 0.5rem 0;
-	display: flex;
-	flex-direction: column;
-
-}
-
-.form-box:nth-child(6) {
-	padding: 0.5rem 0;
-}
-
-.form-box input,
-.form-box select,
-.form-box textarea {
-	flex-basis: 100%;
-}
-
-.form-box input {
-	margin: 5px;
-
-}
-
-fieldset {
-	background-color: #eee;
-	border: 1px solid #ccc;
-}
-
-.flexly {
-	display: flex;
-	align-items: center;
-}
-
-
-form label.radio {
-
-	display: block;
-	padding: .75rem 0;
-}
-
-.container {
-	max-width: 760px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
-}
-
-figure {
-	margin: 0.25rem;
-	padding: 0.60rem;
-	background-color: #eee;
-	border: 1px solid #bbb;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 98%;
-}
-
-figure img {
-	box-shadow: 0 0 30px #777;
-	border: 1px solid #333;
-	max-width: 245px;
-}
-
-figcaption {
-	padding: 0.25rem;
-
-}
-
-.events {
-	margin: auto;
-	text-align: center;
-	width: 300px;
-	padding: 5px;
-	justify-content: center;
-	margin: 1rem auto;
-	background-color: #eee;
-	border: 1px solid #ccc;
-}
-
-.terms {
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-
-
-}
-
-.terms a {
-	text-decoration: none;
-}
-
-
-.terms h1 {
-	font-size: 1rem;
-}
-
-.terms li {
-	list-style: none;
-}
 
 footer a {
 	text-decoration: none;
