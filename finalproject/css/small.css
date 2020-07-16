@@ -26,20 +26,20 @@ nav {
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: #ABDFF1;
+	color: #E1DDDB;
 	font-size: 1rem;
 }
 
 .navigation a:hover {
 	background-color: #E1DDDB;
-	color: #ABDFF1;
+	color: #E1DDDB;
 }
 
 
 
 .navigation a:link,
 nav a:visited {
-	color: #ABDFF1;
+	color: #E1DDDB;
 	text-decoration: none;
 	transition: .5s;
 
