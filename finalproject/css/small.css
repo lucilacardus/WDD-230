@@ -135,10 +135,7 @@ padding: 5px;
 
 }
 
-.contact{
-	display: flex;
-	flex-direction: row;
-}
+
 
 .contact ul li {
 	list-style-type:none;
