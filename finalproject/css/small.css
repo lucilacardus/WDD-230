@@ -126,3 +126,14 @@ footer a {
 	text-decoration: none;
 	color: #F1FAEE;
 }
+
+
+.contact{
+	display: flex;
+flex-wrap: wrap;
+}
+
+.info {
+display: flex;
+flex-direction:row
+}
