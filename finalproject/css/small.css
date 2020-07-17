@@ -129,9 +129,9 @@ footer a {
 
 
 .data{
-display: flex;
-flex-wrap: wrap;
+display: grid;
 background-color: #ABDFF1;
+grid-template-columns: 1fr 1fr;
 
 }
 
@@ -143,9 +143,3 @@ background-color: #ABDFF1;
 	list-style-type:none;
 }
 
-.map {
-display: flex;
-flex-direction: row;
-
-
-}
