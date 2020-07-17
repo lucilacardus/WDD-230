@@ -17,18 +17,13 @@ nav {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
-.active {
-	background-color: #0C4A60;
-	color: #E1DDDB;
-	
 
-}
 .navigation a {
 	display: block;
 	padding: 0.75rem;
 	text-align: center;
 	text-decoration: none;
-	color: #0C4A60;
+	color: #E1DDDB;
 	font-size: 20px;
 }
 
@@ -47,7 +42,7 @@ nav a:visited {
 
 .active {
 	background-color: #0C4A60;
-	color: #E1DDDB;
+	color: #0C4A60;
 	
 
 }
