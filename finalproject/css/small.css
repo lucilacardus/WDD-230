@@ -131,6 +131,11 @@ footer a {
 .contact{
 	display: flex;
 flex-wrap: wrap;
+text-align:center;
+}
+
+.contact ul li {
+	list-style-type:none;
 }
 
 .map {
