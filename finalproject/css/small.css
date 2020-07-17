@@ -146,7 +146,6 @@ background-color: #ABDFF1;
 .map {
 display: flex;
 flex-direction: row;
-float: right;
 
 
 }
