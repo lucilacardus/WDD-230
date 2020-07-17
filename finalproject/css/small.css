@@ -131,14 +131,14 @@ footer a {
 .data{
 display: flex;
 flex-wrap: wrap;
-padding: 5px;
-max-width: 760px;
 
 }
 
+.contact{
+	padding:10px;
+}
 
-
-.contact ul li {
+.contact li {
 	list-style-type:none;
 }
 
