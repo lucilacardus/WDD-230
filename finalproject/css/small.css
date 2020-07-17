@@ -142,4 +142,7 @@ grid-template-columns: 1fr 1fr;
 .contact li {
 	list-style-type:none;
 }
+.media{
+	padding-top: 20px;
+}
 
