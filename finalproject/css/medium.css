@@ -80,7 +80,12 @@
 
 	}
 
-
+	.data{
+		display: grid;
+		background-color: #ABDFF1;
+		grid-template-columns: 1fr 1fr;
+		
+		}
 
 
 }

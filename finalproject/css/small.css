@@ -132,11 +132,11 @@ footer a {
 .data{
 display: grid;
 background-color: #ABDFF1;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 
 }
 
-.contact{
+.contact, .map{
 	padding: 20px;
 }
 
@@ -165,4 +165,9 @@ grid-template-columns: 1fr 1fr;
 .form-box input {
 	margin: 5px;
 
+}
+
+h2 {
+	font-size: 1rem;
+	padding-top: 5px;
 }

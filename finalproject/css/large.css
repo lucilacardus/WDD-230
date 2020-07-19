@@ -41,10 +41,8 @@
 		display: none;
 	}
 
-	h2 {
-		font-size: 1rem;
-		padding-top: 5px;
-	}
+	
+	
 
 	.form-box label {
 		flex-basis: 10.5rem;
@@ -60,11 +58,11 @@
 	}
 
 	.form-box input,
-	.form-box select,
 	.form-box textarea {
 		flex-basis: 0;
 		flex-grow: 1;
 		flex-shrink: 1;
+		
 	}
 
 
@@ -81,6 +79,6 @@
 	}
 
 
-	.form-box label h2{
+	.form-box label h3{
 		padding-right: 10px;
 	}
