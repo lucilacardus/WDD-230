@@ -25,4 +25,3 @@
             //INSERTING ROWS INTO TABLE  
             $('#table').append(prices);
         });
-});
