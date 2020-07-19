@@ -22,7 +22,6 @@
 
 	h2 {
 		font-size: 1rem;
-		color: #36588C;
 		padding-top: 5px;
 	}
 
@@ -36,8 +35,52 @@
 		display: none;
 	}
 
+	.form-box {
+
+		display: block;
+
+	}
+
+	.form-box label {
+		flex-basis: 9rem;
+		flex-grow: 0;
+		flex-shrink: 0;
 
 
-	
-	
+	}
+
+
+	.form-box input,
+	.form-box select,
+	.form-box textarea {
+		flex-basis: 0;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+
+
+
+	.form-box label {
+		flex-direction: row;
+	}
+
+	.form-box input {
+		margin: 5px;
+
+	}
+
+
+	select,
+	input,
+	label,
+	legend,
+		{
+
+		font-size: 18px;
+
+	}
+
+
+
+
 }

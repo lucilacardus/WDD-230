@@ -46,5 +46,41 @@
 		padding-top: 5px;
 	}
 
+	.form-box label {
+		flex-basis: 10.5rem;
+		flex-grow: 0;
+		flex-shrink: 0;
+		
 
-}
+	}
+
+	.form-box input {
+		margin: 5px;
+
+	}
+
+	.form-box input,
+	.form-box select,
+	.form-box textarea {
+		flex-basis: 0;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+
+
+
+
+	input,
+	label,
+		{
+
+		font-size: 18px;
+
+
+
+	}
+
+
+	.form-box label h2{
+		padding-right: 10px;
+	}
