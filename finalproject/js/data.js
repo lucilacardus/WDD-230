@@ -1,27 +1,32 @@
+const requestURL = 'https://lucilacardus.github.io\finalproject\data\rentals.json';
 
-    // FETCHING DATA FROM JSON FILE 
-    $.getJSON('https://lucilacardus.github.io\finalproject\data\rentals.json',
-        function (prices) {
-            let info = '';
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const prices = jsonObject['prices'];
+        for (let i = 0; i < prices.length; i++) {
+            let data = document.createElement('tr');
 
-            // ITERATING THROUGH OBJECTS 
-            $.each(prices, function (key, value) {
+            tr += '<td>' + prices[i].maxpersons + '</td>';
 
-                //CONSTRUCTION OF ROWS HAVING 
-                // DATA FROM JSON OBJECT 
-                info += '<td>' + value.maxpersons + '</td>';
+            tr += '<td>' + prices[i].half + '</td>';
 
-                info += '<td>' + value.half + '</td>';
+            tr += '<td>' + prices[i].full + '</td>';
 
-                info += '<td>' + value.full + '</td>';
+            tr += '<td>' + prices[i].halfwalkin + '</td>';
 
-                info += '<td>' + value.halfwalkin + '</td>';
-
-                info += '<td>' + value.fullwalkin + '</td>';          
+            tr += '<td>' + prices[i].fullwalkin + '</td>';
 
 
-            });
 
-            //INSERTING ROWS INTO TABLE  
-            $('#table').append(prices);
-        });
+
+
+            data.appendChild(tr);
+
+
+            document.querySelector('div.datatable').appendChild(data);
+        }
+    });
