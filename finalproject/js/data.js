@@ -1,4 +1,3 @@
-function () {
 
     // FETCHING DATA FROM JSON FILE 
     $.getJSON('https://lucilacardus.github.io\finalproject\data\rentals.json',
