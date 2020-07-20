@@ -8,6 +8,7 @@ fetch(apiURL)
         document.getElementById('temp').textContent = jsObject.main.temp;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('wind').textContent = jsObject.wind.speed;
+        const imagesrc = 'https://openweathermap.org/img/wn/' + screenforecast.weather[0].icon + '.png';
         document.getElementById('icon').setAttribute('src', imagesrc);
           document.getElementById('icon').setAttribute('alt', desc);
     }); 
