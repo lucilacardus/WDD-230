@@ -86,6 +86,9 @@
 		grid-template-columns: 1fr 1fr;
 		
 		}
-
+		figure {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		  }
 
 }

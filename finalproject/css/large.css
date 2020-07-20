@@ -82,3 +82,9 @@
 	.form-box label h3{
 		padding-right: 10px;
 	}
+
+	figure {
+		display: grid;	
+		grid-template-columns: 1fr 1fr 1fr;
+	  }
+	}

@@ -208,12 +208,12 @@ figure {
 	border: 1px #EF6C33 solid;
 	padding: 4px;
 	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
   }
   
   figcaption {
 	background-color:#ABDFF1;
 	color: #0C4A60;
-	
 	padding: 2px;
 	text-align: center;}
-	
