@@ -273,3 +273,13 @@ figure {
 		background-color: #F1FAEE;
 		color: #36588C;
 	}
+
+	.weather {
+		position: absolute;
+		top: 25px;
+		left: 50px;
+		background-color: #F1FAEE;
+		padding: 1.5rem;
+		opacity: 0.8;
+	
+	}
