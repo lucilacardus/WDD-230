@@ -274,7 +274,7 @@ figure {
 		color: #36588C;
 	}
 
-	.weather {
+	section .weather {
 		position: absolute;
 		top: 25px;
 		left: 50px;
