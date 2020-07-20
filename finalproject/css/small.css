@@ -205,7 +205,7 @@ h2 {
 
 
 figure {
-	border: 1px #EF6C33 solid;
+	border: 2px #EF6C33 solid;
 	padding: 4px;
 	margin: auto;
 	
@@ -219,3 +219,7 @@ figure {
 	color: #0C4A60;
 	padding: 2px;
 	text-align: center;}
+
+	figcaption span{
+		font-size: smaller;
+	}
