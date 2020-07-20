@@ -9,8 +9,8 @@ fetch(requestURL)
 
         for (let i = 0; i < rentals.length; i++) {
 
-                let section = document.createElement('tbody');
-                section.classList.add('maincontainer')
+            let tr = document.createElement('tr');
+                tr.classList.add('datatable')
 
                 
                 let tr = document.createElement('tr');
@@ -19,13 +19,13 @@ fetch(requestURL)
                 tr.innerHTML =`<td>${rentals[i].name}</td> <td> ${rentals[i].maxpersons}</td> <td> ${rentals[i].half}</td> <td> ${rentals[i].full}</td><td>${rentals[i].halfwalkin}</td><td>${rentals[i].fullwalkin}</td>`;
                 
 
-                section.appendChild(tr)
+                tr.appendChild(tr)
                 
 
                 
 
 
-                document.querySelector('div.data').appendChild(section);
+                document.querySelector('tbody.data').appendChild(tr);
             }
         }
     );
