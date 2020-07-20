@@ -86,8 +86,8 @@
 		grid-template-columns: 1fr 1fr;
 		
 		}
-		figure {
-			display: grid;
+		.types {
+			
 			grid-template-columns: 1fr 1fr;
 		  }
 

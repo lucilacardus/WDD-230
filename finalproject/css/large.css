@@ -83,8 +83,7 @@
 		padding-right: 10px;
 	}
 
-	figure {
-		display: grid;	
+	.types {
 		grid-template-columns: 1fr 1fr 1fr;
 	  }
 	}
