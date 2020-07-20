@@ -7,9 +7,9 @@ fetch(requestURL)
     .then(function (jsonObject) {
             console.table(jsonObject); 
             const rentals = jsonObject['rentals'];
-            for (let i = 0; i < rentals.length; i++) {
+            for (let i = 0; i < rentals.maxpersons; i++) {
             let temp ="";
-            
+
                 temp+= '<tr>';
                 temp+= '<td> ' + rentals[i].name + '</td> ';
                 temp+= '<td> ' + rentals[i].maxpersons; + '</td> ';
