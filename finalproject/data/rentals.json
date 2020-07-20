@@ -6,7 +6,8 @@
         "full": "$30",
         "halfwalkin": "$25",
         "fullwalkin": "$30",
-        "maxpersons": "1"
+        "maxpersons": "1",
+        "picture": "hondametro.jpg"
       },
       {
         "name": "~Honda Dio Scooter",
@@ -14,7 +15,8 @@
         "full": "$40",
         "halfwalkin": "$35",
         "fullwalkin": "$45",
-        "maxpersons": "2"
+        "maxpersons": "2",
+        "picture": "hondadio.jpg"
      },
 
       {
@@ -23,7 +25,8 @@
         "full": "$50",
         "halfwalkin": "$45",
         "fullwalkin": "$55",
-        "maxpersons": "2"
+        "maxpersons": "2",
+        "picture": "hondascooter.jpg"
       },
       {
         "name": "Honda Pioneer ATV",
@@ -31,7 +34,8 @@
         "full": "$70",
         "halfwalkin": "$60",
         "fullwalkin": "$80",
-        "maxpersons": "4"
+        "maxpersons": "4",
+        "picture": "hondapioneer.jpg"
       },
       {
         "name": "Jeep Wrangler - 4 door with a/c",
@@ -39,7 +43,8 @@
         "full": "$100",
         "halfwalkin": "$85",
         "fullwalkin": "$125",
-        "maxpersons": "5"
+        "maxpersons": "5",
+        "picture": "jeep4.jpg"
      },
       {
         "name": "Jeep Wrangler - 2 door",
@@ -47,7 +52,8 @@
         "full": "$80",
         "halfwalkin": "$70",
         "fullwalkin": "$90",
-        "maxpersons": "4"
+        "maxpersons": "4",
+        "picture": "jeep2.jpg"
      }
     ]
   }
