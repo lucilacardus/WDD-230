@@ -137,6 +137,13 @@ grid-template-columns: 1fr;
 
 }
 
+.contact {
+	background-color: #ABDFF1;
+	text-align: center;
+
+
+}
+
 .contact, .map{
 	padding: 20px;
 }
