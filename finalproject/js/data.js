@@ -1,5 +1,6 @@
 const requestURL = 'https://lucilacardus.github.io/finalproject/data/rentals.json';
 
+
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -7,24 +8,46 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const rentals = jsonObject['rentals'];
 
-        for (let i = 0; i < rentals.length; i++) {
+        for (let i = 0; i < towns.length; i++) {
+            let place = rentals[i]
+            {
 
-            let tr = document.createElement('tr');
-                tr.classList.add('datatable')
+                let section = document.createElement('article');
+                section.classList.add('maincontainer')
 
+                let containtext = document.createElement('div');
+                containtext.classList.add('textcol');
+                let h2 = document.createElement('h2');
+                let motto = document.createElement('h3');
+                let year = document.createElement('p');
+                let population = document.createElement('p');
+                let rainfall = document.createElement('p');
+
+                h2.textContent = place.name;
+                motto.textContent = place.motto;
+                year.textContent = `Year Founded: ${place.yearFounded}`;
+                population.textContent = 'Population: ' + place.currentPopulation;
+                rainfall.textContent = 'Annual Rain Fall: ' + place.averageRainfall;
+
+                containtext.appendChild(h2);
+                containtext.appendChild(motto);
+                containtext.appendChild(year);
+                containtext.appendChild(population);
+                containtext.appendChild(rainfall);
+
+                let picture = document.createElement('div');
+                picture.classList.add('homepic')
+                let image = document.createElement('img');
                 
-                
-                
+                image.setAttribute('src', "images/" + place.photo);
+                picture.appendChild(image)
+                image.setAttribute('alt', towns[i].name);
 
-                tr.innerHTML =`<td>${rentals[i].name}</td> <td> ${rentals[i].maxpersons}</td> <td> ${rentals[i].half}</td> <td> ${rentals[i].full}</td><td>${rentals[i].halfwalkin}</td><td>${rentals[i].fullwalkin}</td></tr>`;
-                
-
-                
-
-                
+                section.appendChild(containtext)
+                section.appendChild(picture)
 
 
-                document.querySelector('tbody.data').tr;
+                document.querySelector('div.home').appendChild(section);
             }
         }
-    );
+    });
