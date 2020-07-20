@@ -234,3 +234,42 @@ figure {
 		border: 1px solid black;
 		
 	  }
+	  .contentbox .forecast {
+		padding: 10px;
+	}
+
+	  .grid {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+		border-right: 1px solid #36588C;
+	}
+	
+	.grid-col {
+		background-color: #bbb;
+		border-bottom: 1px solid #333;
+		border-left: 1px solid #333;
+		text-align: center;
+	
+	}
+	
+	.information {
+		display: block;
+		padding: 0 5px 5px;
+		font-size: 1rem;
+		text-align: center;
+	}
+	
+	.col-head {
+	
+		display: block;
+		padding: 5px;
+		border-top: 1px solid #333;
+		border-bottom: 1px solid #333;
+		text-align: center;
+		font-weight: 700;
+		font-size: 1rem;
+		background-color: #F1FAEE;
+		color: #36588C;
+	}
