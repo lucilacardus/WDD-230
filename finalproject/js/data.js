@@ -7,7 +7,7 @@ fetch(rentalurl)
         console.table(jsonObject); 
         const rentals = jsonObject['rentals'];
         for (let i = 0; i < rentals.length; i++) {
-            let datatable = document.createElement('tr');
+            let tr = document.createElement('tr');
            
 
 
