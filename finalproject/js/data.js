@@ -1,35 +1,23 @@
+const rentalurl = "http://lucilacardus.github.io\finalproject\data\rentals.json";
+fetch(rentalurl)
+.then(function (response) {
+    return response.json();
+})
+.then(function (jsonObject) {
+        console.table(jsonObject); 
+        const rentals = jsonObject['rentals'];
+        for (let i = 0; i < rentals.length; i++) {
+            let datatable = document.createElement('tr');
+           
 
 
-fetch('../finalproject/data/rentals.json')
-    .then(function (response) {
-        return response.json();
-    })
+            tr.textContent = '<td> ' + rentals[i].name + '</td> ' + '<td> ' + rentals[i].maxpersons; + '</td> ' + '<td> ' + rentals[i].half + '</td> ' + '<td> ' + rentals[i].full + '</td> '+ '<td> ' + rentals[i].halfwalkin; + '</td> '+ '<td> ' + rentals[i].fullwalkin; + '</td> ';
+           
+            
+        
+            datatable.appendChild(tr);
+            
 
-
+            document.querySelector('div.datatable').appendChild(datatable);
+        }});
     
-    .then(function (jsonObject) {
-        console.table(jsonObject);
-        const prices = jsonObject['prices'];
-        for (let i = 0; i < prices.length; i++) {
-            let data = document.createElement('tr');
-
-            tr += '<td>' + prices[i].maxpersons + '</td>';
-
-            tr += '<td>' + prices[i].half + '</td>';
-
-            tr += '<td>' + prices[i].full + '</td>';
-
-            tr += '<td>' + prices[i].halfwalkin + '</td>';
-
-            tr += '<td>' + prices[i].fullwalkin + '</td>';
-
-
-
-
-
-            data.appendChild(tr);
-
-
-            document.querySelector('div.datatable').appendChild(data);
-        }
-    });
