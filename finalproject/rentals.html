@@ -41,23 +41,27 @@
     <main>
 
         <table>
-            <tr>
-                <td colspan="2"></td>
-                <th colspan="2">Reservation</th>
-                <th colspan="2">Walk-In</th>
-            </tr>
-            
-            <tr>
-                <th>Rental Type </th>
-                <th>Max. Persons </th>
-                <th>Half Day (3 hrs)</th>
-                <th>Full Day </th>
-                <th>Half Day (3 hrs)</th>
-                <th>Full Day</th>
-            </tr>
-            <tr id="data">
-            </tr>     
-            
+            <thead>
+                <tr>
+                    <td colspan="2"></td>
+                    <th colspan="2">Reservation</th>
+                    <th colspan="2">Walk-In</th>
+                </tr>
+
+                <tr>
+                    <th>Rental Type </th>
+                    <th>Max. Persons </th>
+                    <th>Half Day (3 hrs)</th>
+                    <th>Full Day </th>
+                    <th>Half Day (3 hrs)</th>
+                    <th>Full Day</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="data">
+                </tr>
+            </tbody>>
         </table>
 
     </main>
@@ -69,7 +73,7 @@
         document.getElementById('last').textContent = document.lastModified;
     </script>
     <script src="js/toggleMenu.js"></script>
-    <script type="text/javascript" src="js/data.js"></script>
+    <script src="js/data.js"></script>
 
 </body>
 
