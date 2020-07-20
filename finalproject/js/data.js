@@ -18,6 +18,6 @@ fetch(rentalurl)
         
             
 
-            const newLocal = document.querySelector('div.datatable').tr;
+            document.querySelector('div.datatable');tr;
         }});
     
