@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-            console.table(jsonObject); 
             const rentals = jsonObject['rentals'];
             for (let i = 0; i < rentals.maxpersons; i++) {
             let temp ="";
