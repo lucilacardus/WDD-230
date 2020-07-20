@@ -1,4 +1,4 @@
-const rentalurl = "http://lucilacardus.github.io\finalproject\data\rentals.json";
+const rentalurl = "https://lucilacardus.github.io\finalproject\data\rentals.json";
 fetch(rentalurl)
 .then(function (response) {
     return response.json();
