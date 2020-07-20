@@ -5,7 +5,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        let rentals = jsObject.rentals;
+        let rentals = jsonObject.rentals;
 
         for(let i=0; i < rentals.length; i++) {
             let temp ="";
