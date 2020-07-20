@@ -20,6 +20,7 @@ fetch(requestURL)
                 
 
                 section.appendChild(tr)
+                section.appendChild(tbody)
                 
 
                 
