@@ -5,18 +5,15 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        let rentals = jsonObject.rentals;
-
-        for(let i=0; i < rentals.length; i++) {
+        console.table(jsonObject); 
+        const rentals = jsonObject['rentals'];
+        for (let i = 0; i < rentals.length; i++) {
             let temp ="";
 
                 
-                temp+= '<td> ' + rentals[i].name + '</td> ';
-                temp+= '<td> ' + rentals[i].maxpersons; + '</td> ';
-                temp+= '<td> ' + rentals[i].half; + '</td> ';
-                temp+= '<td> ' + rentals[i].full; + '</td> ';
-                temp+= '<td> ' + rentals[i].halfwalkin; + '</td> ';
-                temp+= '<td> ' + rentals[i].fullwalkin; + '</td>';
+            temp =`<td>${rentals[i].name}</td> <td> ${rentals[i].maxpersons}</td> <td> ${rentals[i].half}</td> <td> ${rentals[i].full}</td><td>${rentals[i].halfwalkin}</td><td>${rentals[i].fullwalkin}</td>`;
+               
+                
             
             document.getElementById("data").innerHTML = temp
     }});
