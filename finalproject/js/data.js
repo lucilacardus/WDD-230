@@ -10,13 +10,13 @@ fetch(requestURL)
         for(let i=0; i < rentals.length; i++) {
             let temp ="";
 
-                temp+= '<tr>';
+                
                 temp+= '<td> ' + rentals[i].name + '</td> ';
                 temp+= '<td> ' + rentals[i].maxpersons; + '</td> ';
                 temp+= '<td> ' + rentals[i].half; + '</td> ';
                 temp+= '<td> ' + rentals[i].full; + '</td> ';
                 temp+= '<td> ' + rentals[i].halfwalkin; + '</td> ';
-                temp+= '<td> ' + rentals[i].fullwalkin; + '</td> </tr>';
+                temp+= '<td> ' + rentals[i].fullwalkin; + '</td>';
             
             document.getElementById("data").innerHTML = temp
     }});
