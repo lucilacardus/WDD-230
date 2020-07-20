@@ -1,6 +1,6 @@
-const requestURL = 'https://lucilacardus.github.io\finalproject\data\rentals.json';
 
-fetch(requestURL)
+
+fetch(data/rentals.json)
     .then(function (response) {
         return response.json();
     })
