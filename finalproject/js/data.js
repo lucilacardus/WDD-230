@@ -1,6 +1,6 @@
-const newLocal = data / rentals.json;
 
-fetch(newLocal)
+
+fetch(data/rentals.json)
     .then(function (response) {
         return response.json();
     })
