@@ -1,6 +1,6 @@
 
 
-fetch(data/rentals.json)
+fetch('../data/rentals.json')
     .then(function (response) {
         return response.json();
     })
