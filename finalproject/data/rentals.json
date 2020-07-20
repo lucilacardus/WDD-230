@@ -1,7 +1,7 @@
 {
     "rentals": [
       {
-        "name": "~Honda Metro Scooter",
+        "name": "Honda Metro Scooter",
         "half": "$20",
         "full": "$30",
         "halfwalkin": "$25",
@@ -10,7 +10,7 @@
         "picture": "hondametro.jpg"
       },
       {
-        "name": "~Honda Dio Scooter",
+        "name": "Honda Dio Scooter",
         "half": "$30",
         "full": "$40",
         "halfwalkin": "$35",
@@ -20,7 +20,7 @@
      },
 
       {
-        "name": "~Honda PCX150 Scooter",
+        "name": "Honda PCX150 Scooter",
         "half": "$40",
         "full": "$50",
         "halfwalkin": "$45",
