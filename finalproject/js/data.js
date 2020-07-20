@@ -22,7 +22,7 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             image.setAttribute('src', 'images/' + rentals.picture);
-            image.setAttribute('alt', `Picture of a car ${rentals.name}`);
+            image.setAttribute('alt', `Picture of a scooter or car called ${rentals.name}`);
             h2.innerHTML = `${rentals.name}`;
             p1.innerHTML = `Max. Persons: ${rentals.maxpersons}`;
             h3.innerHTML = `Reservation`;
