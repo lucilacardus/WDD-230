@@ -171,4 +171,6 @@ h2 {
 	font-size: 1rem;
 	padding-top: 5px;
 }
-
+table, th, td {
+	border: 1px solid black;
+  }
