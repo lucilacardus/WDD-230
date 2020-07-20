@@ -1,4 +1,4 @@
-const newLocal = finalproject / data / rentals.json;
+const newLocal = data / rentals.json;
 
 fetch(newLocal)
     .then(function (response) {
