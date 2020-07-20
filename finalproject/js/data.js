@@ -15,9 +15,8 @@ fetch(rentalurl)
            
             
         
-            tr.appendChild(tr);
             
 
-            document.querySelector('div.datatable').appendChild(tr);
+            document.querySelector('div.datatable').tr;
         }});
     
