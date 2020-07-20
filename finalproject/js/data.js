@@ -4,6 +4,9 @@ fetch('../data/rentals.json')
     .then(function (response) {
         return response.json();
     })
+
+
+    
     .then(function (jsonObject) {
         console.table(jsonObject);
         const prices = jsonObject['prices'];
