@@ -16,16 +16,15 @@ fetch(requestURL)
                 
                 
 
-                tr.innerHTML =`<td>${rentals[i].name}</td> <td> ${rentals[i].maxpersons}</td> <td> ${rentals[i].half}</td> <td> ${rentals[i].full}</td><td>${rentals[i].halfwalkin}</td><td>${rentals[i].fullwalkin}</td>`;
-                
-
-                tr.appendChild(tr)
+                tr.innerHTML =`<td>${rentals[i].name}</td> <td> ${rentals[i].maxpersons}</td> <td> ${rentals[i].half}</td> <td> ${rentals[i].full}</td><td>${rentals[i].halfwalkin}</td><td>${rentals[i].fullwalkin}</td></tr>`;
                 
 
                 
 
+                
 
-                document.querySelector('tbody.data').appendChild(tr);
+
+                document.querySelector('tbody.data').tr;
             }
         }
     );
