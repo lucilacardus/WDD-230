@@ -134,6 +134,7 @@ display: grid;
 background-color: #ABDFF1;
 grid-template-columns: 1fr;
 
+
 }
 
 .contact, .map{
@@ -185,4 +186,6 @@ h2 {
 .data section{
 	text-align: center;
 	background-color:#EF6C33 ;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
