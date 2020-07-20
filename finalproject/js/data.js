@@ -7,7 +7,6 @@ fetch(rentalurl)
         console.table(jsonObject); 
         const rentals = jsonObject['rentals'];
         for (let i = 0; i < rentals.length; i++) {
-            let card = document.createElement('section');
 
             let tr = document.createElement('tr');
            
@@ -17,9 +16,8 @@ fetch(rentalurl)
            
             
         
-            card.appendChild(tr);
             
 
-            document.querySelector('div.datatable').appendChild(card);
+            const newLocal = document.querySelector('div.datatable').tr;
         }});
     
