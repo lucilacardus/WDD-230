@@ -64,7 +64,7 @@
                 
     
                 <div class="contentbox forecast">
-                    <h3>5 Day Forecast </h3>
+                    <h3 class="centered">5 Day Forecast </h3>
                     <div class="grid">
                         <div class="grid-col">
                             <span class="col-head" id="dayoftheweek1"></span>
@@ -94,7 +94,13 @@
                     </div>
         
                 </div>
-
+                <div class="herodiv">
+                    <picture class="photo">
+                        <source media="(min-width: 250px) and (max-width: 500px)" srcset="images/back360.jpg">
+                        <source media="(min-width: 501px) and (max-width: 799px)" srcset="images/back500.jpg">
+                        <source media="(min-width: 800px)" srcset="images/back767.jpg">
+                        <img id="heroimg" src="images/palmtrees.jpg" alt="Beach Landscape">
+                    </picture>
 
                 <section class="weather">
                     <h3>Weather Summary</h3>
@@ -103,6 +109,11 @@
                     <div class="contentbox">Humidity: <span id="humidity"></span>&#37;</div>
                     
                 </section>
+
+
+                
+                </div>
+        
 
                 <ul class="contact">
                     <li>77600 Quintana Roo, Mexico<br><br>
