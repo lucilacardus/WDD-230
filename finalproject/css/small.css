@@ -313,4 +313,14 @@ figure {
 		font-weight: bold;
 		color: #0C4A60;
 	}
-	
+	.form-box{
+		
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+textarea, input{
+	padding-left: 10px;
+}
+
