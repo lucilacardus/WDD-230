@@ -204,7 +204,7 @@ h2 {
 }
 
 
-figure {
+.presentation {
 	border: 1px #EF6C33 solid;
 	padding: 4px;
 	margin: auto;
@@ -214,13 +214,13 @@ figure {
 	display: grid;
 	grid-template-columns: 1fr;
   }
-  figcaption {
+  .presentation-caption {
 	background-color:#ABDFF1;
 	color: #0C4A60;
 	padding: 2px;
 	text-align: center;}
 
-	figcaption span{
+	.presentation-caption span{
 		font-size: smaller;
 	}
 
@@ -345,13 +345,13 @@ form{
 	width: 98%;
 }
 
-figure img {
+.container figure img {
 	box-shadow: 0 0 30px #777;
 	border: 1px solid #333;
 	max-width: 245px;
 }
 
-figcaption {
+.container figcaption {
 	padding: 0.25rem;
 
 }
