@@ -319,7 +319,7 @@ figure {
 		padding: 10px;
 		font-size: 0.8rem;
 		line-height: 2rem;
-		padding-right: 20px;
+		margin-right: 20px;
 	}
 
 	form fieldset {
