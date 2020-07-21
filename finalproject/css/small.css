@@ -314,7 +314,7 @@ figure {
 		color: #0C4A60;
 	}
 	
-	form label.personal, form label.rental-info {
+	form label.personal-info, form label.rental-info {
 		display: block;
 		padding: 1rem;
 		font-size: 1.25rem;
