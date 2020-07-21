@@ -316,7 +316,7 @@ figure {
 	
 	form label.personal-info, form label.rental-info {
 		display: block;
-		padding: 5px;
+		padding: 10px;
 		font-size: 0.8rem;
 		line-height: 2rem;
 	}
