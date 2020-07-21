@@ -39,7 +39,11 @@
         </ul>
     </nav>
     <main>
-        
+       
+
+
+
+
 
         <h2>Rental Information</h2>
 
@@ -81,6 +85,86 @@
             <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
             <li>Rentals may be returned to either location.</li>
         </ul>
+
+ <!--  Use CSS Flex to design the layout.
+The form should then advance to a page that display a simple confirmation and  request for deposit 
+information. No details are required as this is just front-end design stuff. 
+
+
+Rental details
+date
+period
+rental type
+Personal information
+name
+phone number
+email
+country
+
+cruise line
+special accomodations/comments such as the need and location of a drop-off request
+
+-->
+
+        
+        <form method="GET" action="done.html">
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="form-box">
+                    <label>Enter your full name:
+                        <input type="text" minlength="5" name="input1" required pattern="[A-z\s]{5,}"></label>
+                </div>
+                <div class="form-box">
+                    <label>eMail:
+                        <input type="email" id="email" name="email" placeholder="user@email.org"></label></div>
+                <div class="form-box">
+                    <label>Phone:
+                        <input type="tel" id="tel" name="phone" required></label>
+                </div>
+                <div class="form-box">
+                    <label>Country:
+                        <input type="text" minlength="5" name="input1" required pattern="[A-z\s]{5,}"></label>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Rental details</legend>
+                <div class="form-box">
+                    <label>Date:
+                        <input type="date" name="date"></label>
+                </div>
+                <div class="form-box">
+                    <label for="rentaltype">Rental Type:
+                        <input name="rentaltype" id="rentaltype" list="rentaltypelist">
+                        <datalist id="rentaltypelist">
+                            <option selected disabled>Select Rental type...</option>
+                            <option value="Honda Metropolitan (49cc) - 1 person">
+                            <option value="Honda Dio (110cc) - 2 person">
+                            <option value="Honda PCX150 (149cc) - 2 person">
+                            <option value="Honda Pioneer 1000">
+                            <option value="4-door Jeep Wrangler - manual with A/C - 5 people max">
+                                <option value="2-door Jeep Wrangler - open air - manual - 4 people max"></option>
+                        </datalist></label>
+                </div>
+            </fieldset>
+            <fieldset> <legend>Additional information</legend>
+                <div class="form-box">
+                    <label>Enter your full name:
+                        <input type="text" required pattern="[A-z\s]{5,}"></label>
+                </div>
+                
+                <div class="form-box">
+                    <label>Additional information or comments
+                        <textarea name="comments" rows="4" cols="10">
+                    </textarea></label>
+                </div>
+                <div class="form-box">
+
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+
     </main>
     <footer>
         <p> &copy; ~Scoots | Lucila Cardús | <a href="attributions.html">Attributions</a> | Last Updated: <span
