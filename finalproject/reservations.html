@@ -39,45 +39,50 @@
         </ul>
     </nav>
     <main>
-        <div class="form">
-            <form method="get" action="/finalproject/done.html">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class='personal-info'>Full Name<span class="required">* </span><input type='text' name='fname'
-                            pattern='[a-zA-Z ]{5,}' required placeholder="John Doe"></label>
-                    <label class='personal-info' class="required">Email<span class="required">*</span><input type='email'
-                            name='email' placeholder='emailaddress@email.com' required></label>
-                    <label class='personal-info'>Phone<span class="required">*</span><input type='tel' name='phone' required
-                            pattern="[0-9]{10}" maxlength="14" placeholder='9991114444'></label>
-                    <label class='personal-info'>State<span></span><input type='text' name='state' minlength="2"></label>
-                    <label class='personal-info'>Country<span></span><input type='text' name='Country'></label>
-                    <br><span class="required">*</span><span> Required fields</span>
-                </fieldset>
-                <fieldset>
-                    <legend>Rental Information</legend>
-                    <label class='rental-info'>Pickup Date<input type='date' name='rental-date'></label>
-                    <label class='rental-info'>Return Date<input type='date' name='rental-date'></label>
-                    <label class='rental-info' for='rental-list'>Rental Type<input name='rental-type' list='rental-data'
-                            id="rental-list"></label>
-                    <datalist id='rental-data'>
-                        <option value="Honda Metro Scooter"></option>
-                        <option value="Honda Dio Scooter"></option>
-                        <option value="Honda PCX150 Scooter"></option>
-                        <option value="Honda Pioneer ATV"></option>
-                        <option value="Jeep Wrangler - 4 door with a/c"></option>
-                        <option value="Jeep Wrangler - 2 door"></option>
-                    </datalist>
-                </fieldset>
-                <fieldset>
-                    <legend>Additional Information</legend>
-                    <label class='rental-info'>Cruise Line<input type='text' name='Cruise'></label>
-                    <label class='rental-info'>Comments<textarea class='text-area'
-                            placeholder="Please let us know about any special accommodations/comments such as the need and location of a drop-off request."></textarea></label>
-                </fieldset>
-                
-                <input class='submit-button' type='submit' value='Make my reservation'>
-            </form>
-        </div>
+        <!--  The Reservations page that contains rental agreement information and a form that collects 
+            rental details such as the date, period, rental type, number, phone number, name, email, 
+            home state or country, cruise line if applicable, and special accommodations/comments such 
+            as the need and location of a drop-off request. Use CSS Flex to design the layout.
+The form should then advance to a page that display a simple confirmation and  request for deposit 
+information. No details are required as this is just front-end design stuff.-->
+
+<h2>Rental Information</h2>
+
+<h3>Type of Rentals</h3>
+<ul>
+    <li>Honda Motor Scooters    </li>
+    <ul>
+        <li>Honda Metropolitan (49cc) - 1 person</li>
+        <li>Honda Dio (110cc) - 2 person</li>
+        <li>Honda PCX150 (149cc) - 2 person</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+  
+
+Honda Motor Scooters
+Honda Metropolitan (49cc) - 1 person
+Honda Dio (110cc) - 2 person
+Honda PCX150 (149cc) - 2 person
+ATV Side-by-Side
+Honda Pioneer 1000
+Jeep Rentals
+4-door Jeep Wrangler - manual with A/C - 5 people max
+2-door Jeep Wrangler - open air - manual - 4 people max
+
+<h3>Information and Services</h3>
+
+A $50 security deposit is required to confirm reservations.
+A valid drivers license is required in hand at time of rental.
+No one under 12 years of age are allowed to ride on the scooters.
+Fuel charge not included.
+Unlimited mileage.
+Liability insurance is free of charge.
+Reservations rate requires 24 hour prior notification.
+Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+Payment via Google Pay, cash, credit card, debit card, or PayPal.
+Rentals may be returned to either location.
     </main>
     <footer>
         <p> &copy; ~Scoots | Lucila Cardús | <a href="attributions.html">Attributions</a> | Last Updated: <span id="last"></span></p>
