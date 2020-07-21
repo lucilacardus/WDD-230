@@ -283,7 +283,7 @@ h2 {
 	
 	}
 
-	.herodiv {
+	.herodiv, .otherheroimg {
 		margin: 10px auto;
 		position: relative;
 	}
@@ -294,7 +294,7 @@ h2 {
 		margin: 0 2%;
 	}
 	
-	#heroimg {
+	#heroimg, #otherheroimg {
 		width: 100%;
 		padding: 0;
 	}
