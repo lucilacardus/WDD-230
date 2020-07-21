@@ -327,3 +327,31 @@ textarea, input{
 form{
 	padding-top: 20px;
 }
+
+.container {
+	max-width: 760px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
+}
+
+.container figure {
+	margin: 0.25rem;
+	padding: 0.60rem;
+	background-color: #E1DDDB;
+	border: 1px solid #EF6C33;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 98%;
+}
+
+figure img {
+	box-shadow: 0 0 30px #777;
+	border: 1px solid #333;
+	max-width: 245px;
+}
+
+figcaption {
+	padding: 0.25rem;
+
+}
