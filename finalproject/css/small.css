@@ -324,3 +324,6 @@ textarea, input{
 	padding-left: 10px;
 }
 
+form{
+	padding-top: 20px;
+}
