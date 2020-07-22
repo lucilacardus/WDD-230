@@ -361,3 +361,6 @@ form{
 .services{
 	margin:5px;
 }
+.form-box > input{
+	padding: 5px;
+}
