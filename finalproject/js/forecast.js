@@ -7,7 +7,6 @@ fetch(apiURL)
         document.getElementById('current').textContent = jsObject.weather[0].main;
         document.getElementById('temp').textContent = jsObject.main.temp;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('wind').textContent = jsObject.wind.speed;
     }); 
 
 
