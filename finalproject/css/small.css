@@ -43,7 +43,7 @@ nav a:visited {
 .active {
 	background-color: #E1DDDB;
 
-	
+
 
 }
 
@@ -129,10 +129,10 @@ footer a {
 }
 
 
-.data{
-display: grid;
-background-color: #ABDFF1;
-grid-template-columns: 1fr;
+.data {
+	display: grid;
+	background-color: #ABDFF1;
+	grid-template-columns: 1fr;
 
 
 }
@@ -144,14 +144,16 @@ grid-template-columns: 1fr;
 
 }
 
-.contact, .map{
+.contact,
+.map {
 	padding: 20px;
 }
 
 .contact li {
-	list-style-type:none;
+	list-style-type: none;
 }
-.media{
+
+.media {
 	padding-top: 20px;
 }
 
@@ -180,24 +182,25 @@ h2 {
 	padding-top: 5px;
 }
 
-.data section h2{
+.data section h2 {
 	color: black;
 
 }
-.data section h3{
+
+.data section h3 {
 	color: black;
 	font-size: 0.8rem;
 
 }
 
-.data section{
+.data section {
 	text-align: center;
-	background-color:#EF6C33 ;
+	background-color: #EF6C33;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
 
-.centered{
+.centered {
 	text-align: center;
 
 
@@ -208,125 +211,133 @@ h2 {
 	border: 1px #EF6C33 solid;
 	padding: 4px;
 	margin: auto;
-	
-  }
-  .types{
-	display: grid;
-	grid-template-columns: 1fr;
-  }
-  .presentation-caption {
-	background-color:#ABDFF1;
-	color: #0C4A60;
-	padding: 2px;
-	text-align: center;}
 
-	.presentation-caption span{
-		font-size: smaller;
-	}
-
-	.reserve {
-		text-align: center;
-		display: block;
-		text-decoration: none;
-		background-color: #EF6C33;
-		color: black;
-		padding: 6px;
-		border: 1px solid black;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		
-	  }
-	  .contentbox .forecast {
-		padding: 10px;
-	}
-
-	  .grid {
-		margin-top: 10px;
-		margin-bottom: 10px;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-		border-right: 1px solid #0C4A60;
-	}
-	
-	.grid-col {
-		background-color: #ABDFF1;
-		border-bottom: 1px solid #0C4A60;
-		border-left: 1px solid #0C4A60;
-		text-align: center;
-	
-	}
-	
-	.information {
-		display: block;
-		padding: 0 5px 5px;
-		font-size: 1rem;
-		text-align: center;
-	}
-	
-	.col-head {
-	
-		display: block;
-		padding: 5px;
-		border-top: 1px solid #0C4A60;
-		border-bottom: 1px solid #0C4A60;
-		text-align: center;
-		font-weight: 700;
-		font-size: 1rem;
-		background-color: #ABDFF1;
-		color: #0C4A60;
-	}
-
-	section .weather {
-		
-		top: 25px;
-		left: 50px;
-		padding: 1.5rem;
-		opacity: 0.8;
-	
-	}
-
-	.herodiv, .otherherodiv {
-		margin: 10px auto;
-		position: relative;
-	}
-	
-	.photo {
-		display: block;
-		width: 98%;
-		margin: 0 2%;
-	}
-	
-	#heroimg, #otherheroimg {
-		width: 100%;
-		padding: 0;
-	}
-	
-	.weather {
-		position: absolute;
-		top: 25px;
-		left: 50px;
-		background-color: #E1DDDB;
-		padding: 1.5rem;
-		opacity: 0.8;
-	
-	}
-	
-	.weather span {
-		font-weight: bold;
-		color: #0C4A60;
-	}
-	.form-box{
-		
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
-textarea, input{
+.types {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.presentation-caption {
+	background-color: #ABDFF1;
+	color: #0C4A60;
+	padding: 2px;
+	text-align: center;
+}
+
+.presentation-caption span {
+	font-size: smaller;
+}
+
+.reserve {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	background-color: #EF6C33;
+	color: black;
+	padding: 6px;
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.contentbox .forecast {
+	padding: 10px;
+}
+
+.grid {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+	border-right: 1px solid #0C4A60;
+}
+
+.grid-col {
+	background-color: #ABDFF1;
+	border-bottom: 1px solid #0C4A60;
+	border-left: 1px solid #0C4A60;
+	text-align: center;
+
+}
+
+.information {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.col-head {
+
+	display: block;
+	padding: 5px;
+	border-top: 1px solid #0C4A60;
+	border-bottom: 1px solid #0C4A60;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #ABDFF1;
+	color: #0C4A60;
+}
+
+section .weather {
+
+	top: 25px;
+	left: 50px;
+	padding: 1.5rem;
+	opacity: 0.8;
+
+}
+
+.herodiv,
+.otherherodiv {
+	margin: 10px auto;
+	position: relative;
+}
+
+.photo {
+	display: block;
+	width: 98%;
+	margin: 0 2%;
+}
+
+#heroimg,
+#otherheroimg {
+	width: 100%;
+	padding: 0;
+}
+
+.weather {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	background-color: #E1DDDB;
+	padding: 1.5rem;
+	opacity: 0.8;
+
+}
+
+.weather span {
+	font-weight: bold;
+	color: #0C4A60;
+}
+
+.form-box {
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+textarea,
+input {
 	padding-left: 10px;
 }
 
-form{
+form {
 	padding-top: 20px;
 }
 
@@ -358,9 +369,10 @@ form{
 
 }
 
-.services{
-	margin:5px;
+.services {
+	margin: 5px;
 }
-.form-box > input{
+
+.form-box>input {
 	padding: 5px;
 }

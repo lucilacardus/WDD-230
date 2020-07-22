@@ -41,14 +41,14 @@
 		display: none;
 	}
 
-	
-	
+
+
 
 	.form-box label {
 		flex-basis: 10.5rem;
 		flex-grow: 0;
 		flex-shrink: 0;
-		
+
 
 	}
 
@@ -62,15 +62,14 @@
 		flex-basis: 0;
 		flex-grow: 1;
 		flex-shrink: 1;
-		
+
 	}
 
 
 
 
 	input,
-	label
-		{
+	label {
 
 		font-size: 18px;
 
@@ -79,14 +78,14 @@
 	}
 
 
-	.form-box label h3{
+	.form-box label h3 {
 		padding-right: 10px;
 	}
 
 	.types {
 		grid-template-columns: 1fr 1fr 1fr;
-	  }
-
-	
-
 	}
+
+
+
+}

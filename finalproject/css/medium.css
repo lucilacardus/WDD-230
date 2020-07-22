@@ -74,22 +74,22 @@
 	select,
 	input,
 	label,
-	legend
-		{
+	legend {
 
 		font-size: 18px;
 
 	}
 
-	.data{
+	.data {
 		display: grid;
 		background-color: #ABDFF1;
 		grid-template-columns: 1fr 1fr;
-		
-		}
-		.types {
-			
-			grid-template-columns: 1fr 1fr;
-		  }
+
+	}
+
+	.types {
+
+		grid-template-columns: 1fr 1fr;
+	}
 
 }
